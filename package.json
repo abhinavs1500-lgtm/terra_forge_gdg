@@ -1,0 +1,26 @@
+{
+  "name": "terra-forge-chennai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Terra Forge — Interactive Land Intelligence Platform for Chennai (167 Verified Locations)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "validate-data": "python scripts/data_pipeline.py --validate",
+    "test": "node scripts/test_suite.mjs"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.454.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite": "^5.4.10"
+  }
+}

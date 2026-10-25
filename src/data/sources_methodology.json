@@ -1,0 +1,164 @@
+{
+  "sources": [
+    {
+      "id": "SRC-OSM-OVERPASS",
+      "name": "OpenStreetMap Contributors & Overpass API (Chennai Spatial Registry)",
+      "url": "https://overpass-api.de/api/interpreter",
+      "portal_url": "https://www.openstreetmap.org/",
+      "category": "Geographic, Roads, Transit, Hydrography & Landmarks",
+      "description": "Primary open geospatial vector source used to establish verified WGS 84 coordinates (node IDs), place classifications (suburb/town/neighbourhood), 171 railway/CMRL metro/MRTS stations, 846 public facilities, 304 water bodies/waterways, 672 parks/industrial estates/landmarks, and 4,160 arterial road segments across Greater Chennai and the Chennai Metropolitan Area.",
+      "fields_and_units": "Latitude/Longitude (decimal degrees, EPSG:4326), OSM Feature IDs (integer), Geodesic Proximity Distances (km, calculated via Haversine formula).",
+      "retrieval_date": "2026-10-24",
+      "geographic_coverage": "Greater Chennai Corporation & Chennai Metropolitan Area (Bounding Box: 12.82°N–13.26°N, 80.08°E–80.34°E)",
+      "resolution": "Point Node & Vector Polyline/Polygon Centroid",
+      "license": "Open Database License (ODbL 1.0) — © OpenStreetMap contributors",
+      "data_cleaning": "Normalized locality names, removed non-ASCII and sub-block duplicates, enforced >= 0.45 km minimum inter-centroid separation, and verified 167 distinct Chennai localities.",
+      "limitations": "Community-maintained open dataset; postal PIN codes and minor neighbourhood boundaries may be incomplete on certain nodes.",
+      "origin_classification": "Directly Sourced (Coordinates & Features) + Derived (Haversine Distances)",
+      "integration_status": "Integrated (Verified Local Snapshot + Live Tile Layers)"
+    },
+    {
+      "id": "SRC-COPERNICUS-DEM",
+      "name": "Copernicus DEM GLO-90 / NASA SRTM Digital Elevation Model (via Open-Meteo Elevation API)",
+      "url": "https://api.open-meteo.com/v1/elevation",
+      "portal_url": "https://open-meteo.com/en/docs/elevation-api",
+      "category": "Topography & Ground Elevation",
+      "description": "Provides digital terrain elevation above Mean Sea Level (m MSL) for all 167 Chennai location centroids using the Copernicus Digital Elevation Model (GLO-90) and NASA SRTM 90m radar topography.",
+      "fields_and_units": "Terrain Elevation in meters above Mean Sea Level (m MSL, 0.1 m precision).",
+      "retrieval_date": "2026-10-24",
+      "geographic_coverage": "Global / Full 167-Location Chennai Registry (100% coverage)",
+      "resolution": "90-meter horizontal grid cell resolution (3 arc-seconds)",
+      "license": "CC BY 4.0 — Open-Meteo & Copernicus DEM (European Space Agency)",
+      "data_cleaning": "Batch-queried all 167 verified WGS 84 coordinates and validated numerical elevation ranges across coastal (2–6 m MSL) and western/southern uplands (10–32 m MSL).",
+      "limitations": "Represents 90m grid average elevation; does not capture plot-level earth filling, localized street re-grading, or building basement excavations.",
+      "origin_classification": "Directly Sourced (REST API Query)",
+      "integration_status": "Integrated (167/167 Locations Populated)"
+    },
+    {
+      "id": "SRC-TNGIS-PORTAL",
+      "name": "Tamil Nadu Geographic Information System (TNGIS) & GeoServer WMS",
+      "url": "https://tngis.tn.gov.in/apps.html",
+      "portal_url": "https://tngis.tn.gov.in/tngismaps/wms",
+      "category": "Administrative Boundaries & State GIS Infrastructure",
+      "description": "State geospatial portal operated by Tamil Nadu e-Governance Agency (TNeGA). Investigated apps.html and discovered the underlying GeoServer WMS endpoint (https://tngis.tn.gov.in/tngismaps/wms).",
+      "fields_and_units": "Administrative Zone Context, Revenue Taluk/Village Reference, WMS Layer Capabilities.",
+      "retrieval_date": "2026-10-24",
+      "geographic_coverage": "Tamil Nadu State & Chennai District",
+      "resolution": "Administrative Ward / Village Cadastral Scale",
+      "license": "Government of Tamil Nadu — TNeGA Terms of Use (Restricted Departmental WMS)",
+      "data_cleaning": "Probed public accessibility of apps.html (HTTP 200 OK) and tngismaps/wms (network timeout / intranet firewall restriction). Configured honest fallback with direct portal link and local GeoJSON layer import support.",
+      "limitations": "Direct OGC WMS GetCapabilities requests to tngis.tn.gov.in/tngismaps/wms time out from external networks due to state firewall policies. Terra Forge does NOT claim an active live WMS tile stream from TNGIS.",
+      "origin_classification": "Verified Portal Metadata & Honest Fallback",
+      "integration_status": "Honest Fallback (Portal Reference + GeoJSON Import Supported)"
+    },
+    {
+      "id": "SRC-TNGIS-CUMTA",
+      "name": "TNGIS — Chennai Unified Metropolitan Transport Authority (CUMTA) Web-GIS",
+      "url": "https://tngis.tn.gov.in/apps/cumta/",
+      "portal_url": "https://tngis.tn.gov.in/apps/api/cumta_api/api/data.php",
+      "category": "Transport & Multi-Modal Connectivity",
+      "description": "Official TNGIS application for the Chennai Unified Metropolitan Transport Authority (CUMTA). Inspection of main.js confirmed OpenLayers frontend architecture backed by session-gated POST endpoints (cumta_api/api/data.php) and NRSC Bhuvan / OSM base layers.",
+      "fields_and_units": "Multi-modal transport corridors, CMRL Metro Phase I/II stations, Southern Railway Suburban & MRTS stops, Arterial Road Hierarchy.",
+      "retrieval_date": "2026-10-24",
+      "geographic_coverage": "Chennai Metropolitan Area (CMA)",
+      "resolution": "Corridor & Station Node Level",
+      "license": "Government of Tamil Nadu / CUMTA (Restricted Backend API; OpenStreetMap ODbL Fallback Used)",
+      "data_cleaning": "Respecting access controls, Terra Forge does not scrape or bypass CUMTA session gates. Instead, CMRL Metro, Suburban Rail, MRTS, and MTC bus terminals are sourced via OpenStreetMap Overpass API with CUMTA corridor attribution.",
+      "limitations": "CUMTA internal attribute tables require authenticated departmental session tokens.",
+      "origin_classification": "Directly Sourced via OSM Overpass + Official CUMTA Portal Link",
+      "integration_status": "Honest Fallback (OSM Transit Network + CUMTA Portal Reference)"
+    },
+    {
+      "id": "SRC-CGWB-GSI",
+      "name": "Central Ground Water Board (CGWB) Chennai District Brochure & GSI 1:50,000 Lithological Map",
+      "url": "https://cgwb.gov.in/",
+      "portal_url": "https://gsi.gov.in/",
+      "category": "Ground & Soil Intelligence / Hydrogeology",
+      "description": "Published hydrogeological reports and 1:50,000 geological formations for Chennai and contiguous CMA sub-basins: Quaternary Coastal Alluvium/Marine Sand, Backwater Lacustrine/Estuarine Clay, Fluvial Alluvium, Upper Gondwana Sandstone/Shale, and Archaean Charnockite/Gneiss basement.",
+      "fields_and_units": "Regional Soil Classification (USDA/Indian Taxonomy), Geological Formation, Pre-Monsoon (May) & Post-Monsoon (Jan) Groundwater Depth Range in meters below ground level (m bgl), Aquifer Yield Range in liters per minute (LPM).",
+      "retrieval_date": "2026-10-24",
+      "geographic_coverage": "Greater Chennai District & Contiguous CMA Sub-Basins (152/167 soil coverage; 143/167 groundwater range coverage)",
+      "resolution": "1:50,000 Regional Lithological Unit & Sub-Basin Observation Network (NOT a plot-scale borehole log)",
+      "license": "Government of India — Open Government Data / Published Technical Reports",
+      "data_cleaning": "Mapped regional geological provinces to verified locality coordinates and coastal distances; explicitly marked 15 outer transition localities without Chennai District 1:50,000 soil sheet coverage and 24 localities without local CGWB observation wells as Unavailable.",
+      "limitations": "Regional hydrogeological ranges reflect sub-basin conditions. Local clay lenses, perched water tables, and plot-specific Safe Bearing Capacity (SBC) or SPT N-values cannot be known without physical borehole drilling per IS 1892.",
+      "origin_classification": "Regional Dataset (Explicitly Disclosed Resolution)",
+      "integration_status": "Integrated (Regional Scale with Missing-Data Flags)"
+    },
+    {
+      "id": "SRC-NCCR-CFLOWS-GCC",
+      "name": "NCCR CFLOWS-Chennai Framework, NDMA & Greater Chennai Corporation (GCC) 15-Zone SWD Basin Registry",
+      "url": "https://www.nccr.gov.in/",
+      "portal_url": "https://chennaicorporation.gov.in/",
+      "category": "Environmental, Watershed Basins & Flood Context",
+      "description": "Hydrological watershed division (Kosasthalaiyar, North Buckingham/Otteri Nullah, Cooum, Adyar, and Kovalam–Pallikaranai Marshland basins), GCC 15-Zone administrative mapping, and documented historical flood hotspot inventory from the 2015 South Indian Floods and 2023 Cyclone Michaung.",
+      "fields_and_units": "Watershed Basin Name, Primary Drainage Channel, Flood Hazard Sensitivity Tier, Nearest Water Body Distance (km), Terrain Elevation (m MSL).",
+      "retrieval_date": "2026-10-24",
+      "geographic_coverage": "Greater Chennai Corporation 15 Zones (200 Wards) & Core CMA Floodplains (147/167 locations covered)",
+      "resolution": "Watershed Sub-Basin & Ward-Level Historical Inventory",
+      "license": "Ministry of Earth Sciences (NCCR) & Greater Chennai Corporation Public Reports",
+      "data_cleaning": "Combined published post-monsoon inundation inventories with Copernicus 90m elevation (m MSL) and Haversine distance to nearest OpenStreetMap water body. Marked 20 outer CMA localities outside the GCC 200-ward CFLOWS boundary as Unavailable for ward-level flood classification.",
+      "limitations": "High-resolution CFLOWS street-level hydrodynamic depth rasters are restricted to emergency operations dashboards. Preliminary basin sensitivity does not replace site-specific contour surveying.",
+      "origin_classification": "Regional Dataset + Derived Spatial Proximity",
+      "integration_status": "Integrated (147/167 Verified Basin Hazard; 20/167 Outer CMA Disclosed Unavailable)"
+    },
+    {
+      "id": "SRC-BIS-NBC-CODES",
+      "name": "Bureau of Indian Standards (BIS) Civil Engineering Codes & TNCDBR 2019",
+      "url": "https://www.bis.gov.in/",
+      "portal_url": "https://www.cmdachennai.gov.in/",
+      "category": "Construction, Materials & Preliminary Assessment Rules",
+      "description": "Codified Indian engineering standards governing preliminary structural and durability rules in Chennai: IS 456:2000 (Plain & Reinforced Concrete — Table 3 Coastal Exposure), IS 1893:2016 Part 1 (Seismic Zone III, Z = 0.16), IS 13920:2016 (Ductile Detailing), IS 875:2015 Part 3 (Cyclonic Wind Speed Vb = 50 m/s), IS 1904:1986 (Foundations), and Tamil Nadu Combined Development and Building Rules (TNCDBR 2019).",
+      "fields_and_units": "Minimum Concrete Grade (M25–M35), Nominal Cover (mm), Seismic Zone Factor (Z = 0.16), Basic Wind Speed (50 m/s), Plinth Height Offset (+0.60 m to +1.50 m).",
+      "retrieval_date": "2026-10-24",
+      "geographic_coverage": "All 167 Locations (Rule-Based Engineering Synthesis)",
+      "resolution": "Codified Statutory & Engineering Design Rules",
+      "license": "Statutory Public Engineering Standards Reference",
+      "data_cleaning": "Linked exact geodesic coastal distance (km), regional soil class, and flood sensitivity tier to transparent, inspectable IF-THEN engineering rules.",
+      "limitations": "Preliminary rule-based guidance only; never substitutes for a licensed structural engineer's design or site-specific IS 1892 geotechnical investigation.",
+      "origin_classification": "Derived Rule-Based Engineering Logic",
+      "integration_status": "Integrated (Inspectable Rule Engine)"
+    }
+  ],
+  "methodology": {
+    "assessment_rules": [
+      {
+        "rule_id": "RULE-COAST-EXP-01",
+        "title": "IS 456:2000 Coastal Chloride & Airborne Salt Exposure Rule",
+        "condition": "coastal_distance_km <= 1.5 km (Very Severe / Severe Direct Marine Spray) OR 1.5 < coastal_distance_km <= 5.0 km (Severe Near-Coastal Zone)",
+        "output": "Mandates M30–M35 structural concrete grade, PPC/GGBS blended binder, Fe 500D CRS (Corrosion Resistant Steel) or epoxy-coated rebar, and 45–50 mm nominal cover.",
+        "source_standard": "IS 456:2000 Table 3 & Table 5",
+        "limitation": "Local windward salt deposition and groundwater salinity require chemical water/soil testing per IS 3025."
+      },
+      {
+        "rule_id": "RULE-HYDRO-PLINTH-02",
+        "title": "Flood Basin & Low-Elevation Plinth Protection Rule",
+        "condition": "flood_hazard_category == 'High Flood Sensitivity' OR elevation_m_msl <= 6.0 m OR nearest_water_body.distance_km <= 0.60 km",
+        "output": "Recommends elevated finished plinth (+1.20 m to +1.50 m above road crown), stilt floor configuration for multi-unit residential/commercial builds, backflow prevention valves, and perimeter dewatering provision during excavation.",
+        "source_standard": "TNCDBR 2019, NBC 2016 Part 3 & GCC Flood Mitigation Guidelines",
+        "limitation": "Actual HFL (Highest Flood Level) must be verified relative to the adjacent street benchmark and GCC Storm Water Drain invert level."
+      },
+      {
+        "rule_id": "RULE-GEOTECH-SOIL-03",
+        "title": "Regional Lithology & Sub-Surface Foundation Investigation Rule",
+        "condition": "Soil classification contains 'Soft Marine / Lacustrine Clay' (deep pile/raft alert), 'Coastal Alluvial & Marine Sandy' (liquefaction SPT check), 'Gondwana Clayey' (swell-shrink index check), or 'Charnockite' (weathered rock socketing check).",
+        "output": "Flags preliminary foundation investigation scope (minimum 2 to 4 boreholes down to 10–20 m or refusal per IS 1892) and highlights soil-specific geotechnical checks.",
+        "source_standard": "IS 1892:1979, IS 1904:1986 & CGWB Hydrogeological Atlas",
+        "limitation": "Regional 1:50,000 lithology cannot predict localized filled land, quarry pits, or clay lenses; physical SPT drilling is mandatory."
+      },
+      {
+        "rule_id": "RULE-SEISMIC-WIND-04",
+        "title": "Chennai Seismic Zone III & Cyclonic Wind Envelope Rule",
+        "condition": "Applies to all Chennai Metropolitan Area structures (Seismic Zone III, Z = 0.16; Basic Wind Speed Vb = 50 m/s).",
+        "output": "Requires ductile reinforcement detailing per IS 13920:2016 and cyclonic uplift/lateral wind bracing per IS 875:2015 Part 3 (especially for coastal and >15 m height structures).",
+        "source_standard": "IS 1893:2016 (Part 1), IS 13920:2016 & IS 875:2015 (Part 3)",
+        "limitation": "Site class amplification factor depends on measured 30m shear-wave velocity (Vs30) or average SPT N-value."
+      }
+    ],
+    "cost_estimator_methodology": {
+      "overview": "Assumption-based preliminary order-of-magnitude calculator. Does NOT claim to provide live market contractor quotes.",
+      "formula": "Base Built-Up Cost (Built-Up Area sq.ft × User-Editable Base Rate ₹/sq.ft) + Site Condition Contingency Allowances (Coastal Corrosion Upgrade %, Soft Clay / High Water Table Sub-Structure %, Elevated Plinth / Flood Mitigation %) + Statutory/Professional Investigation Allowance + Contingency.",
+      "unit_system": "Area in sq.ft and sq.m (1 sq.m = 10.7639 sq.ft); Currency in Indian Rupees (₹ INR) with Lakhs/Crores formatting."
+    }
+  }
+}

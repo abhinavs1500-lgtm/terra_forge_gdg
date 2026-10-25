@@ -1,0 +1,3304 @@
+{
+  "generated_at": "2026-10-24T19:30:00+05:30",
+  "rail_and_metro_nodes": [
+    {
+      "osm_id": 248467412,
+      "name": "Chennai Chetpet",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.074342,
+      "lon": 80.242421
+    },
+    {
+      "osm_id": 248545108,
+      "name": "Pattaravakkam",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.11439,
+      "lon": 80.166398
+    },
+    {
+      "osm_id": 304278622,
+      "name": "Anna Nagar West",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.098539,
+      "lon": 80.201006
+    },
+    {
+      "osm_id": 304278630,
+      "name": "Padi",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "Southern Railway",
+      "lat": 13.103661,
+      "lon": 80.194809
+    },
+    {
+      "osm_id": 2481258999,
+      "name": "Chennai Park",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.080754,
+      "lon": 80.273088
+    },
+    {
+      "osm_id": 2481259002,
+      "name": "Kodambakkam",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.051662,
+      "lon": 80.230689
+    },
+    {
+      "osm_id": 2481259006,
+      "name": "Mambalam",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.038066,
+      "lon": 80.227775
+    },
+    {
+      "osm_id": 6285857244,
+      "name": "Saidapet",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.023995,
+      "lon": 80.228124
+    },
+    {
+      "osm_id": 2481969291,
+      "name": "Puratchi Thalaivar Dr. M. G. Ramachandran Central",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.082423,
+      "lon": 80.275962
+    },
+    {
+      "osm_id": 2486239287,
+      "name": "Chepauk",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.061931,
+      "lon": 80.280596
+    },
+    {
+      "osm_id": 2486239288,
+      "name": "Thiruvallikeni",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.055935,
+      "lon": 80.280604
+    },
+    {
+      "osm_id": 3187977875,
+      "name": "Palavanthangal",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 12.990638,
+      "lon": 80.18794
+    },
+    {
+      "osm_id": 6285857248,
+      "name": "Guindy",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.009275,
+      "lon": 80.213085
+    },
+    {
+      "osm_id": 3678939665,
+      "name": "Avadi",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.118274,
+      "lon": 80.101543
+    },
+    {
+      "osm_id": 4221752111,
+      "name": "Saint Thomas Mount",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 12.994765,
+      "lon": 80.199371
+    },
+    {
+      "osm_id": 4435694788,
+      "name": "Pallavaram",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "Southern Railway",
+      "lat": 12.967574,
+      "lon": 80.15205
+    },
+    {
+      "osm_id": 4767159308,
+      "name": "Perungalattur",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 12.905243,
+      "lon": 80.095046
+    },
+    {
+      "osm_id": 4885083053,
+      "name": "Tirusulam",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 12.980461,
+      "lon": 80.165793
+    },
+    {
+      "osm_id": 6285857239,
+      "name": "Meenambakkam",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 12.987673,
+      "lon": 80.176479
+    },
+    {
+      "osm_id": 5273733276,
+      "name": "Chromepet",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 12.95219,
+      "lon": 80.141168
+    },
+    {
+      "osm_id": 5274094702,
+      "name": "Ennore",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.217468,
+      "lon": 80.321601
+    },
+    {
+      "osm_id": 5274761658,
+      "name": "Korukkupet",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.119425,
+      "lon": 80.278456
+    },
+    {
+      "osm_id": 5274761659,
+      "name": "Korattur",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.113142,
+      "lon": 80.184152
+    },
+    {
+      "osm_id": 5274913769,
+      "name": "Kotturpuram",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.013718,
+      "lon": 80.248452
+    },
+    {
+      "osm_id": 5275790188,
+      "name": "Chennai Egmore",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.077749,
+      "lon": 80.261257
+    },
+    {
+      "osm_id": 5276187591,
+      "name": "Perambur Carriage Works",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.107281,
+      "lon": 80.238886
+    },
+    {
+      "osm_id": 5276205560,
+      "name": "Perambur",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.107719,
+      "lon": 80.244414
+    },
+    {
+      "osm_id": 5276214842,
+      "name": "Perambur Loco Works",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.108377,
+      "lon": 80.22584
+    },
+    {
+      "osm_id": 5286945822,
+      "name": "Tambaram",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 12.925792,
+      "lon": 80.117919
+    },
+    {
+      "osm_id": 5287023932,
+      "name": "Vyasarpadi Jeeva",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.109196,
+      "lon": 80.25722
+    },
+    {
+      "osm_id": 5287054301,
+      "name": "V.O.C. Nagar",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.140807,
+      "lon": 80.287611
+    },
+    {
+      "osm_id": 5308690568,
+      "name": "Alandur",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.004256,
+      "lon": 80.201453
+    },
+    {
+      "osm_id": 5310778033,
+      "name": "Ambattur",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.114089,
+      "lon": 80.152861
+    },
+    {
+      "osm_id": 5310778034,
+      "name": "Thirumullaivoyal",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.115319,
+      "lon": 80.137137
+    },
+    {
+      "osm_id": 5310778035,
+      "name": "Annanur",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.116356,
+      "lon": 80.126913
+    },
+    {
+      "osm_id": 8430632416,
+      "name": "Tondiarpet",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.124528,
+      "lon": 80.288856
+    },
+    {
+      "osm_id": 5311732459,
+      "name": "Tiruvottiyur",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.158641,
+      "lon": 80.296208
+    },
+    {
+      "osm_id": 8430636713,
+      "name": "Wimco Nagar",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.17929,
+      "lon": 80.307344
+    },
+    {
+      "osm_id": 5311732516,
+      "name": "Kathivakkam",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.204038,
+      "lon": 80.316547
+    },
+    {
+      "osm_id": 5311755231,
+      "name": "Chintadaripet",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.073795,
+      "lon": 80.273861
+    },
+    {
+      "osm_id": 5311755232,
+      "name": "Light House",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.045537,
+      "lon": 80.276989
+    },
+    {
+      "osm_id": 5311755233,
+      "name": "Mundakakanni Amman Koil",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.040651,
+      "lon": 80.269882
+    },
+    {
+      "osm_id": 5311755234,
+      "name": "Thirumayilai",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.035398,
+      "lon": 80.267513
+    },
+    {
+      "osm_id": 5311755235,
+      "name": "Mandaveli",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.028093,
+      "lon": 80.260618
+    },
+    {
+      "osm_id": 5311755236,
+      "name": "Greenways Road",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.021585,
+      "lon": 80.252729
+    },
+    {
+      "osm_id": 5311755237,
+      "name": "Kasturiba Nagar",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.005382,
+      "lon": 80.24786
+    },
+    {
+      "osm_id": 5311755238,
+      "name": "Indira Nagar",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 12.996062,
+      "lon": 80.249716
+    },
+    {
+      "osm_id": 5311755239,
+      "name": "Tiruvanmiyur",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 12.988982,
+      "lon": 80.251587
+    },
+    {
+      "osm_id": 5311755240,
+      "name": "Taramani",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 12.978658,
+      "lon": 80.241644
+    },
+    {
+      "osm_id": 5311755241,
+      "name": "Perungudi",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 12.976058,
+      "lon": 80.232192
+    },
+    {
+      "osm_id": 5311755242,
+      "name": "Velachery",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 12.967619,
+      "lon": 80.219508
+    },
+    {
+      "osm_id": 5311755243,
+      "name": "Puzhudivakkam",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "MRTS",
+      "lat": 12.977158,
+      "lon": 80.205424
+    },
+    {
+      "osm_id": 5311755244,
+      "name": "Adambakkam",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "MRTS",
+      "lat": 12.982381,
+      "lon": 80.196888
+    },
+    {
+      "osm_id": 5311775879,
+      "name": "Vandalur",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 12.891606,
+      "lon": 80.084974
+    },
+    {
+      "osm_id": 5311775880,
+      "name": "Tambaram Sanatorium",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 12.936959,
+      "lon": 80.130703
+    },
+    {
+      "osm_id": 5311775881,
+      "name": "Nungambakkam",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "IR",
+      "lat": 13.065841,
+      "lon": 80.232839
+    },
+    {
+      "osm_id": 5319202812,
+      "name": "St. Thomas Mount Metro",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 12.995044,
+      "lon": 80.198375
+    },
+    {
+      "osm_id": 5319207378,
+      "name": "Ekkattuthangal",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.016922,
+      "lon": 80.205424
+    },
+    {
+      "osm_id": 5319972796,
+      "name": "Ashok Nagar",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.035477,
+      "lon": 80.211107
+    },
+    {
+      "osm_id": 14240033431,
+      "name": "Vadapalani",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.049805,
+      "lon": 80.211242
+    },
+    {
+      "osm_id": 5319972799,
+      "name": "Arumbakkam",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.061675,
+      "lon": 80.211656
+    },
+    {
+      "osm_id": 5321248890,
+      "name": "CMBT",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.06852,
+      "lon": 80.203984
+    },
+    {
+      "osm_id": 5321248896,
+      "name": "Koyambedu",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.07345,
+      "lon": 80.194836
+    },
+    {
+      "osm_id": 5329907482,
+      "name": "Pachaiyappa's College",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.075547,
+      "lon": 80.232852
+    },
+    {
+      "osm_id": 5329907487,
+      "name": "Kilpauk",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.077637,
+      "lon": 80.242619
+    },
+    {
+      "osm_id": 5329907490,
+      "name": "Nehru Park",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.078784,
+      "lon": 80.250473
+    },
+    {
+      "osm_id": 5329907499,
+      "name": "Egmore",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.080281,
+      "lon": 80.263055
+    },
+    {
+      "osm_id": 5337407346,
+      "name": "Thousand Lights",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.058516,
+      "lon": 80.258783
+    },
+    {
+      "osm_id": 5337407350,
+      "name": "LIC",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.064372,
+      "lon": 80.265846
+    },
+    {
+      "osm_id": 5337407354,
+      "name": "Government Estate",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.069634,
+      "lon": 80.273036
+    },
+    {
+      "osm_id": 5337658083,
+      "name": "High Court",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.087268,
+      "lon": 80.284984
+    },
+    {
+      "osm_id": 5337658088,
+      "name": "Mannadi",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.095446,
+      "lon": 80.286131
+    },
+    {
+      "osm_id": 5337658099,
+      "name": "Washermanpet",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.107847,
+      "lon": 80.280949
+    },
+    {
+      "osm_id": 5338654280,
+      "name": "Anna Nagar Tower Entrance/Exit",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "Southern Railway",
+      "lat": 13.085101,
+      "lon": 80.209654
+    },
+    {
+      "osm_id": 6285857237,
+      "name": "Nanganallur Road",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 12.99988,
+      "lon": 80.19401
+    },
+    {
+      "osm_id": 6285857241,
+      "name": "Chennai International Airport",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 12.980809,
+      "lon": 80.164203
+    },
+    {
+      "osm_id": 6285857242,
+      "name": "Teynampet",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.0368,
+      "lon": 80.246419
+    },
+    {
+      "osm_id": 6285857243,
+      "name": "Nandanam",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.031709,
+      "lon": 80.241196
+    },
+    {
+      "osm_id": 6285857246,
+      "name": "Little Mount",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.014663,
+      "lon": 80.224167
+    },
+    {
+      "osm_id": 6285857249,
+      "name": "AG-DMS",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.045885,
+      "lon": 80.248285
+    },
+    {
+      "osm_id": 6285857253,
+      "name": "Central Metro",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.081725,
+      "lon": 80.273916
+    },
+    {
+      "osm_id": 8430632406,
+      "name": "Sir Theagaraya College",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.115754,
+      "lon": 80.284744
+    },
+    {
+      "osm_id": 8430636714,
+      "name": "Thiruvottriyur",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.171803,
+      "lon": 80.305269
+    },
+    {
+      "osm_id": 8430636715,
+      "name": "Kaladipet",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.150667,
+      "lon": 80.299393
+    },
+    {
+      "osm_id": 8430636716,
+      "name": "Tollgate",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.143134,
+      "lon": 80.296329
+    },
+    {
+      "osm_id": 8430636817,
+      "name": "New Washermanpet",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.134519,
+      "lon": 80.293001
+    },
+    {
+      "osm_id": 9360208171,
+      "name": "Thirumangalam Metro Entrance/Exit",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro Rail",
+      "lat": 13.085391,
+      "lon": 80.202482
+    },
+    {
+      "osm_id": 9391348571,
+      "name": "Shenoy Nagar Metro Entrance - North East",
+      "type": "Metro Station (CMRL)",
+      "network": "CMRL",
+      "lat": 13.0797,
+      "lon": 80.225864
+    },
+    {
+      "osm_id": 9391348572,
+      "name": "Shenoy Nagar Metro Entrance - North West",
+      "type": "Metro Station (CMRL)",
+      "network": "CMRL",
+      "lat": 13.0798,
+      "lon": 80.224538
+    },
+    {
+      "osm_id": 9580013601,
+      "name": "Thiruvottiyur Theradi",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.160215,
+      "lon": 80.302448
+    },
+    {
+      "osm_id": 9857416360,
+      "name": "Wimco Nagar Depot",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.183971,
+      "lon": 80.308994
+    },
+    {
+      "osm_id": 9980951873,
+      "name": "High Court A4",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "Southern Railway",
+      "lat": 13.088605,
+      "lon": 80.28575
+    },
+    {
+      "osm_id": 10536613511,
+      "name": "B2 Ritchie Street",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "Southern Railway",
+      "lat": 13.069542,
+      "lon": 80.27217
+    },
+    {
+      "osm_id": 11035843675,
+      "name": "High Court A2",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "Southern Railway",
+      "lat": 13.087111,
+      "lon": 80.284065
+    },
+    {
+      "osm_id": 11037119026,
+      "name": "High Court A1",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "Southern Railway",
+      "lat": 13.086842,
+      "lon": 80.285048
+    },
+    {
+      "osm_id": 11037119040,
+      "name": "High Court A3",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "Southern Railway",
+      "lat": 13.088239,
+      "lon": 80.284769
+    },
+    {
+      "osm_id": 12109641351,
+      "name": "D",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "Southern Railway",
+      "lat": 13.00372,
+      "lon": 80.201414
+    },
+    {
+      "osm_id": 12109641352,
+      "name": "C",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "Southern Railway",
+      "lat": 13.004686,
+      "lon": 80.201955
+    },
+    {
+      "osm_id": 12109641357,
+      "name": "A",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "Southern Railway",
+      "lat": 13.004791,
+      "lon": 80.201657
+    },
+    {
+      "osm_id": 12109663408,
+      "name": "B",
+      "type": "Suburban / MRTS Rail Station",
+      "network": "Southern Railway",
+      "lat": 12.981627,
+      "lon": 80.163883
+    },
+    {
+      "osm_id": 13971965462,
+      "name": "Porur Junction",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.035868,
+      "lon": 80.156752
+    },
+    {
+      "osm_id": 13972050953,
+      "name": "Poonamallee Bypass",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.048059,
+      "lon": 80.081977
+    },
+    {
+      "osm_id": 13972061019,
+      "name": "Thelliyaragaram",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.036912,
+      "lon": 80.141529
+    },
+    {
+      "osm_id": 13972063969,
+      "name": "Porur Bypass",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.036226,
+      "lon": 80.149971
+    },
+    {
+      "osm_id": 13972457964,
+      "name": "Kumananchavadi",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.044761,
+      "lon": 80.118544
+    },
+    {
+      "osm_id": 13972487793,
+      "name": "Poonamallee Government Hospital",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.049712,
+      "lon": 80.102075
+    },
+    {
+      "osm_id": 13972488427,
+      "name": "Poonamallee Bus Stand",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.050888,
+      "lon": 80.094741
+    },
+    {
+      "osm_id": 13972497043,
+      "name": "Kattupakkam",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.04206,
+      "lon": 80.125174
+    },
+    {
+      "osm_id": 13972502091,
+      "name": "Karayanchavadi",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.046734,
+      "lon": 80.110713
+    },
+    {
+      "osm_id": 13972514096,
+      "name": "Iyappanthangal",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.038298,
+      "lon": 80.134702
+    },
+    {
+      "osm_id": 14018223514,
+      "name": "Madhavaram Milk Colony",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.149667,
+      "lon": 80.241421
+    },
+    {
+      "osm_id": 14018223515,
+      "name": "Sholinganallur Metro",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 12.900958,
+      "lon": 80.227965
+    },
+    {
+      "osm_id": 14018223516,
+      "name": "Kodambakkam Metro",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.052118,
+      "lon": 80.231127
+    },
+    {
+      "osm_id": 14018223517,
+      "name": "Panagal Park Metro",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.041026,
+      "lon": 80.233453
+    },
+    {
+      "osm_id": 14018223518,
+      "name": "Boat Club Metro",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.02935,
+      "lon": 80.247704
+    },
+    {
+      "osm_id": 14018223519,
+      "name": "Bharathidasan Road Metro",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.035814,
+      "lon": 80.254976
+    },
+    {
+      "osm_id": 14018223530,
+      "name": "Alwarpet Metro",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.038301,
+      "lon": 80.259646
+    },
+    {
+      "osm_id": 14018223531,
+      "name": "Thirumayilai Metro",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.036832,
+      "lon": 80.267649
+    },
+    {
+      "osm_id": 14018223536,
+      "name": "Kutchery Road Metro",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.034363,
+      "lon": 80.273232
+    },
+    {
+      "osm_id": 14018223537,
+      "name": "Lighthouse Metro",
+      "type": "Metro Station (CMRL)",
+      "network": "Chennai Metro",
+      "lat": 13.043838,
+      "lon": 80.280042
+    }
+  ],
+  "water_bodies_and_waterways": [
+    {
+      "osm_id": 22658645,
+      "name": "North River",
+      "type": "River",
+      "lat": 13.078915,
+      "lon": 80.27377
+    },
+    {
+      "osm_id": 23110069,
+      "name": "Adyar River",
+      "type": "River",
+      "lat": 12.983421,
+      "lon": 80.135649
+    },
+    {
+      "osm_id": 23161547,
+      "name": "Mambalam Canal",
+      "type": "Canal",
+      "lat": 13.034904,
+      "lon": 80.238327
+    },
+    {
+      "osm_id": 23633592,
+      "name": "Porur Lake",
+      "type": "Lake",
+      "lat": 13.031108,
+      "lon": 80.149916
+    },
+    {
+      "osm_id": 23648227,
+      "name": "Kadaperi Lake",
+      "type": "Reservoir",
+      "lat": 12.93446,
+      "lon": 80.118334
+    },
+    {
+      "osm_id": 23648228,
+      "name": "Irumbuliyur Lake",
+      "type": "Reservoir",
+      "lat": 12.921538,
+      "lon": 80.107613
+    },
+    {
+      "osm_id": 23648229,
+      "name": "Chitlapakkam Lake",
+      "type": "Reservoir",
+      "lat": 12.933734,
+      "lon": 80.136154
+    },
+    {
+      "osm_id": 23648233,
+      "name": "Thiruneermalai Lake",
+      "type": "Reservoir",
+      "lat": 12.953883,
+      "lon": 80.123555
+    },
+    {
+      "osm_id": 23804000,
+      "name": "ICF Lake",
+      "type": "Reservoir",
+      "lat": 13.1034,
+      "lon": 80.217535
+    },
+    {
+      "osm_id": 23885099,
+      "name": "Kandaswami Muthukumaraswami Koil Kulam",
+      "type": "Pond",
+      "lat": 13.085792,
+      "lon": 80.278662
+    },
+    {
+      "osm_id": 24270420,
+      "name": "Kapaleeshwara Koil Kulam",
+      "type": "Pond",
+      "lat": 13.033437,
+      "lon": 80.268681
+    },
+    {
+      "osm_id": 24270487,
+      "name": "Athikesvara Perumal Koil Kulam",
+      "type": "Pond",
+      "lat": 13.031424,
+      "lon": 80.271018
+    },
+    {
+      "osm_id": 25391800,
+      "name": "Ambattur Lake",
+      "type": "Reservoir",
+      "lat": 13.10633,
+      "lon": 80.142336
+    },
+    {
+      "osm_id": 25394157,
+      "name": "Puzhal Lake",
+      "type": "Reservoir",
+      "lat": 13.164964,
+      "lon": 80.163153
+    },
+    {
+      "osm_id": 25394523,
+      "name": "Sholavaram Lake",
+      "type": "Reservoir",
+      "lat": 13.223799,
+      "lon": 80.140506
+    },
+    {
+      "osm_id": 25395366,
+      "name": "Krishna Canal",
+      "type": "Canal",
+      "lat": 13.157504,
+      "lon": 80.060756
+    },
+    {
+      "osm_id": 25395844,
+      "name": "Kosasthalaiyar River",
+      "type": "River",
+      "lat": 13.2333,
+      "lon": 80.051163
+    },
+    {
+      "osm_id": 25453624,
+      "name": "Chembarambakkam Lake",
+      "type": "Reservoir",
+      "lat": 13.007925,
+      "lon": 80.050783
+    },
+    {
+      "osm_id": 25460072,
+      "name": "Reddikuppam Canal",
+      "type": "Canal",
+      "lat": 13.026496,
+      "lon": 80.226226
+    },
+    {
+      "osm_id": 25460321,
+      "name": "Maruthur Gopalan Ramachandran Nagar Canal",
+      "type": "Canal",
+      "lat": 13.034465,
+      "lon": 80.200921
+    },
+    {
+      "osm_id": 25474612,
+      "name": "Korattur Lake",
+      "type": "Lake",
+      "lat": 13.123526,
+      "lon": 80.181403
+    },
+    {
+      "osm_id": 25474749,
+      "name": "Retteri Lake",
+      "type": "Reservoir",
+      "lat": 13.140762,
+      "lon": 80.210686
+    },
+    {
+      "osm_id": 25504265,
+      "name": "Velachery Lake",
+      "type": "Lake",
+      "lat": 12.988244,
+      "lon": 80.211503
+    },
+    {
+      "osm_id": 25724261,
+      "name": "Adambakkam Lake",
+      "type": "Reservoir",
+      "lat": 12.986292,
+      "lon": 80.196684
+    },
+    {
+      "osm_id": 25724278,
+      "name": "Pannachiamman Koil Tank",
+      "type": "Pond",
+      "lat": 12.984461,
+      "lon": 80.187869
+    },
+    {
+      "osm_id": 25725027,
+      "name": "Madipakkam Lake",
+      "type": "Lake",
+      "lat": 12.961367,
+      "lon": 80.190922
+    },
+    {
+      "osm_id": 25726316,
+      "name": "Puzhuthivakkam Lake",
+      "type": "Lake",
+      "lat": 12.968566,
+      "lon": 80.202121
+    },
+    {
+      "osm_id": 26433707,
+      "name": "Sembakkam lake",
+      "type": "Lake",
+      "lat": 12.933662,
+      "lon": 80.153411
+    },
+    {
+      "osm_id": 26800736,
+      "name": "Retteri Lake",
+      "type": "Reservoir",
+      "lat": 13.152073,
+      "lon": 80.213993
+    },
+    {
+      "osm_id": 27203001,
+      "name": "Ellaiamman Koil Kulam",
+      "type": "Pond",
+      "lat": 13.034107,
+      "lon": 80.225076
+    },
+    {
+      "osm_id": 27709103,
+      "name": "Trustpuram Canal",
+      "type": "Canal",
+      "lat": 13.060434,
+      "lon": 80.226659
+    },
+    {
+      "osm_id": 27709396,
+      "name": "Jafferkhanpet Canal",
+      "type": "Canal",
+      "lat": 13.026963,
+      "lon": 80.212873
+    },
+    {
+      "osm_id": 27771449,
+      "name": "Vadapalani Murugan Temple Pond",
+      "type": "Reservoir",
+      "lat": 13.052985,
+      "lon": 80.214264
+    },
+    {
+      "osm_id": 28260258,
+      "name": "Vadakkapattu Lake",
+      "type": "Lake",
+      "lat": 12.930461,
+      "lon": 80.185608
+    },
+    {
+      "osm_id": 28260431,
+      "name": "Nanmangalam Lake",
+      "type": "Lake",
+      "lat": 12.939367,
+      "lon": 80.167041
+    },
+    {
+      "osm_id": 28260577,
+      "name": "Selaiyur Lake",
+      "type": "Water Body",
+      "lat": 12.916168,
+      "lon": 80.132239
+    },
+    {
+      "osm_id": 28261148,
+      "name": "Balaji Nagar Lake",
+      "type": "Water Body",
+      "lat": 12.914118,
+      "lon": 80.111171
+    },
+    {
+      "osm_id": 28309687,
+      "name": "Tirisulam Lake",
+      "type": "Water Body",
+      "lat": 12.973534,
+      "lon": 80.168763
+    },
+    {
+      "osm_id": 29047592,
+      "name": "Marundeeshwara Temple Tank",
+      "type": "Pond",
+      "lat": 12.985569,
+      "lon": 80.261427
+    },
+    {
+      "osm_id": 29241216,
+      "name": "Agathishwara Perumal Koil Kulam",
+      "type": "Pond",
+      "lat": 13.060038,
+      "lon": 80.241908
+    },
+    {
+      "osm_id": 29246065,
+      "name": "Periyathoppu Lake",
+      "type": "Reservoir",
+      "lat": 13.169495,
+      "lon": 80.252638
+    },
+    {
+      "osm_id": 30037018,
+      "name": "Oxidation Pond",
+      "type": "Pond",
+      "lat": 12.990827,
+      "lon": 80.240394
+    },
+    {
+      "osm_id": 30037019,
+      "name": "Oxidation Pond",
+      "type": "Pond",
+      "lat": 12.989014,
+      "lon": 80.240111
+    },
+    {
+      "osm_id": 30078793,
+      "name": "Kovilpadagai Lake",
+      "type": "Reservoir",
+      "lat": 13.146782,
+      "lon": 80.096911
+    },
+    {
+      "osm_id": 30128515,
+      "name": "Chembrampakkam Surplus to Adayar",
+      "type": "River",
+      "lat": 12.983713,
+      "lon": 80.096405
+    },
+    {
+      "osm_id": 30137291,
+      "name": "Chembarambakkam irrigation canal",
+      "type": "Canal",
+      "lat": 13.020377,
+      "lon": 80.102161
+    },
+    {
+      "osm_id": 30209756,
+      "name": "Vengambakkam Lake",
+      "type": "Reservoir",
+      "lat": 12.869277,
+      "lon": 80.125102
+    },
+    {
+      "osm_id": 30424450,
+      "name": "Perumbakkam Lake",
+      "type": "Water Body",
+      "lat": 12.896483,
+      "lon": 80.188762
+    },
+    {
+      "osm_id": 30606822,
+      "name": "Velachery Lake",
+      "type": "Water Body",
+      "lat": 12.985791,
+      "lon": 80.220753
+    },
+    {
+      "osm_id": 30609167,
+      "name": "Kallu Kuttai Lake",
+      "type": "Lake",
+      "lat": 12.979022,
+      "lon": 80.235908
+    },
+    {
+      "osm_id": 30625195,
+      "name": "Alappakkam Madhuravoyal Eri",
+      "type": "Lake",
+      "lat": 13.051989,
+      "lon": 80.164317
+    },
+    {
+      "osm_id": 30738635,
+      "name": "ETPS Flyash Pond",
+      "type": "Reservoir",
+      "lat": 13.207636,
+      "lon": 80.304825
+    },
+    {
+      "osm_id": 30738642,
+      "name": "ETPS Flyash Pond",
+      "type": "Reservoir",
+      "lat": 13.211705,
+      "lon": 80.29913
+    },
+    {
+      "osm_id": 30978033,
+      "name": "Kandasamy Koil Tank",
+      "type": "Reservoir",
+      "lat": 13.094667,
+      "lon": 80.255802
+    },
+    {
+      "osm_id": 31020934,
+      "name": "Periyathoppu Lake",
+      "type": "Reservoir",
+      "lat": 13.162466,
+      "lon": 80.2498
+    },
+    {
+      "osm_id": 32253842,
+      "name": "New Perungalathur Lake",
+      "type": "Reservoir",
+      "lat": 12.901532,
+      "lon": 80.086459
+    },
+    {
+      "osm_id": 32306856,
+      "name": "Balasubramani Temple Tank",
+      "type": "Pond",
+      "lat": 13.038311,
+      "lon": 80.249333
+    },
+    {
+      "osm_id": 32995619,
+      "name": "Thamarai Kulam",
+      "type": "Lake",
+      "lat": 13.223249,
+      "lon": 80.323286
+    },
+    {
+      "osm_id": 33069045,
+      "name": "ETPS Oxidation Pond",
+      "type": "Pond",
+      "lat": 13.214522,
+      "lon": 80.317195
+    },
+    {
+      "osm_id": 33071135,
+      "name": "Thyagarajaswami Koil Tank",
+      "type": "Pond",
+      "lat": 13.161515,
+      "lon": 80.300336
+    },
+    {
+      "osm_id": 33630146,
+      "name": "Temple Tank",
+      "type": "Reservoir",
+      "lat": 13.051027,
+      "lon": 80.096455
+    },
+    {
+      "osm_id": 34484000,
+      "name": "Konimedu Lake",
+      "type": "Lake",
+      "lat": 13.182454,
+      "lon": 80.152615
+    },
+    {
+      "osm_id": 34484008,
+      "name": "Vellanur Lake",
+      "type": "Lake",
+      "lat": 13.161997,
+      "lon": 80.107214
+    },
+    {
+      "osm_id": 34618168,
+      "name": "Ayapakkam Lake",
+      "type": "Water Body",
+      "lat": 13.101866,
+      "lon": 80.128716
+    },
+    {
+      "osm_id": 35475053,
+      "name": "Karaneeswarar Temple Tank",
+      "type": "Reservoir",
+      "lat": 13.024759,
+      "lon": 80.222486
+    },
+    {
+      "osm_id": 35475132,
+      "name": "Prasanna Venkatesa Perumal Koil Kulam",
+      "type": "Pond",
+      "lat": 13.022387,
+      "lon": 80.217304
+    },
+    {
+      "osm_id": 47109361,
+      "name": "Kachaleeswara Temple Reservoir",
+      "type": "Reservoir",
+      "lat": 13.093394,
+      "lon": 80.287385
+    },
+    {
+      "osm_id": 47109373,
+      "name": "Malligeshwarar Temple Reservoir",
+      "type": "Reservoir",
+      "lat": 13.097879,
+      "lon": 80.290036
+    },
+    {
+      "osm_id": 47415291,
+      "name": "Kondithope Kasi Viswanathar Koil",
+      "type": "Pond",
+      "lat": 13.100158,
+      "lon": 80.277917
+    },
+    {
+      "osm_id": 47571166,
+      "name": "Thiruvateeswaran Koil Kulam",
+      "type": "Pond",
+      "lat": 13.061676,
+      "lon": 80.272541
+    },
+    {
+      "osm_id": 47572261,
+      "name": "Rajakilpakkam Lake",
+      "type": "Water Body",
+      "lat": 12.918862,
+      "lon": 80.150802
+    },
+    {
+      "osm_id": 48057021,
+      "name": "Gangadeeshwarar Koil Kulam",
+      "type": "Pond",
+      "lat": 13.08516,
+      "lon": 80.254284
+    },
+    {
+      "osm_id": 82874933,
+      "name": "Nesavalar Nagar Lake",
+      "type": "Lake",
+      "lat": 12.912997,
+      "lon": 80.20016
+    },
+    {
+      "osm_id": 82883544,
+      "name": "Mambakkam Lake",
+      "type": "Reservoir",
+      "lat": 12.849872,
+      "lon": 80.159738
+    },
+    {
+      "osm_id": 82883553,
+      "name": "Maambakkam Lake",
+      "type": "Reservoir",
+      "lat": 12.836294,
+      "lon": 80.163811
+    },
+    {
+      "osm_id": 82883604,
+      "name": "Chitrerari Lake",
+      "type": "Lake",
+      "lat": 12.909069,
+      "lon": 80.170909
+    },
+    {
+      "osm_id": 83300092,
+      "name": "Aquarium",
+      "type": "Water Body",
+      "lat": 12.879321,
+      "lon": 80.085948
+    },
+    {
+      "osm_id": 84099124,
+      "name": "Madippakkam Village Pond",
+      "type": "Pond",
+      "lat": 12.963786,
+      "lon": 80.197472
+    },
+    {
+      "osm_id": 85130862,
+      "name": "North River",
+      "type": "River",
+      "lat": 13.069121,
+      "lon": 80.284451
+    },
+    {
+      "osm_id": 85130915,
+      "name": "North River",
+      "type": "River",
+      "lat": 13.074588,
+      "lon": 80.279579
+    },
+    {
+      "osm_id": 86251016,
+      "name": "Sooriamman Koil pond",
+      "type": "Reservoir",
+      "lat": 12.972628,
+      "lon": 80.132766
+    },
+    {
+      "osm_id": 87098619,
+      "name": "Otteri Lake",
+      "type": "Reservoir",
+      "lat": 12.88435,
+      "lon": 80.084686
+    },
+    {
+      "osm_id": 95639903,
+      "name": "Banaveduthottam Lake",
+      "type": "Lake",
+      "lat": 13.078115,
+      "lon": 80.086418
+    },
+    {
+      "osm_id": 95668360,
+      "name": "Kolathur Lake",
+      "type": "Lake",
+      "lat": 13.128258,
+      "lon": 80.212919
+    },
+    {
+      "osm_id": 95772858,
+      "name": "Alleri Tank",
+      "type": "Lake",
+      "lat": 12.940884,
+      "lon": 80.119063
+    },
+    {
+      "osm_id": 98315669,
+      "name": "Kadapakkam Tank",
+      "type": "Lake",
+      "lat": 13.200886,
+      "lon": 80.25275
+    },
+    {
+      "osm_id": 98357297,
+      "name": "Dhenupureeswarar Tank",
+      "type": "Reservoir",
+      "lat": 12.897979,
+      "lon": 80.160104
+    },
+    {
+      "osm_id": 98357449,
+      "name": "Vengadamangalam, IRPC Lake",
+      "type": "Reservoir",
+      "lat": 12.858513,
+      "lon": 80.15202
+    },
+    {
+      "osm_id": 98357524,
+      "name": "Perumbakkam Lake",
+      "type": "Reservoir",
+      "lat": 12.900978,
+      "lon": 80.194153
+    },
+    {
+      "osm_id": 98357562,
+      "name": "Pudhupakkam Lake",
+      "type": "Lake",
+      "lat": 12.818977,
+      "lon": 80.192579
+    },
+    {
+      "osm_id": 98358044,
+      "name": "Classic Farms Lake 2",
+      "type": "Lake",
+      "lat": 12.886848,
+      "lon": 80.22104
+    },
+    {
+      "osm_id": 98639499,
+      "name": "Kallu Kuttai Lake",
+      "type": "Water Body",
+      "lat": 12.977766,
+      "lon": 80.236124
+    },
+    {
+      "osm_id": 102459218,
+      "name": "Kolladi Lake",
+      "type": "Lake",
+      "lat": 13.084847,
+      "lon": 80.123621
+    },
+    {
+      "osm_id": 102459233,
+      "name": "Ambattur Lake",
+      "type": "Reservoir",
+      "lat": 13.116079,
+      "lon": 80.140969
+    },
+    {
+      "osm_id": 102547877,
+      "name": "Thiruvalleswar Temple Pond",
+      "type": "Pond",
+      "lat": 13.096548,
+      "lon": 80.187174
+    },
+    {
+      "osm_id": 102550226,
+      "name": "Virugambakkam Canal",
+      "type": "Canal",
+      "lat": 13.060094,
+      "lon": 80.198605
+    },
+    {
+      "osm_id": 103716694,
+      "name": "drain path",
+      "type": "Canal",
+      "lat": 12.983989,
+      "lon": 80.21793
+    },
+    {
+      "osm_id": 107877932,
+      "name": "Bengal tiger",
+      "type": "Water Body",
+      "lat": 12.888348,
+      "lon": 80.094131
+    },
+    {
+      "osm_id": 108120404,
+      "name": "Hippopotamus",
+      "type": "Water Body",
+      "lat": 12.877047,
+      "lon": 80.090111
+    },
+    {
+      "osm_id": 127464711,
+      "name": "Virupatcheshwarer Temple Tank",
+      "type": "Pond",
+      "lat": 13.038845,
+      "lon": 80.274545
+    },
+    {
+      "osm_id": 131425322,
+      "name": "Anna Nedumchalai Lake",
+      "type": "Lake",
+      "lat": 12.966244,
+      "lon": 80.238836
+    },
+    {
+      "osm_id": 131961844,
+      "name": "Thamarai Kulam",
+      "type": "Pond",
+      "lat": 12.968332,
+      "lon": 80.256959
+    },
+    {
+      "osm_id": 133599488,
+      "name": "Kortallaiyar River",
+      "type": "River",
+      "lat": 13.21672,
+      "lon": 80.292874
+    },
+    {
+      "osm_id": 138307626,
+      "name": "Araabath Lake",
+      "type": "Reservoir",
+      "lat": 13.1252,
+      "lon": 80.137498
+    },
+    {
+      "osm_id": 138307641,
+      "name": "Pattabiram lake",
+      "type": "Lake",
+      "lat": 13.110832,
+      "lon": 80.076369
+    },
+    {
+      "osm_id": 138307646,
+      "name": "Mariamman Koil Kulam",
+      "type": "Pond",
+      "lat": 13.112407,
+      "lon": 80.21956
+    },
+    {
+      "osm_id": 154089347,
+      "name": "Pallikaranai Thamarai Kulam",
+      "type": "Pond",
+      "lat": 12.934731,
+      "lon": 80.204575
+    },
+    {
+      "osm_id": 159017372,
+      "name": "Ponniamman Temple Pond",
+      "type": "Water Body",
+      "lat": 12.939273,
+      "lon": 80.178188
+    },
+    {
+      "osm_id": 175799902,
+      "name": "Temple Tank",
+      "type": "Reservoir",
+      "lat": 12.962295,
+      "lon": 80.112613
+    },
+    {
+      "osm_id": 177370838,
+      "name": "Lake",
+      "type": "Lake",
+      "lat": 12.925736,
+      "lon": 80.157882
+    },
+    {
+      "osm_id": 178105896,
+      "name": "Adyar River",
+      "type": "River",
+      "lat": 13.002955,
+      "lon": 80.16273
+    },
+    {
+      "osm_id": 178105900,
+      "name": "Adyar River",
+      "type": "River",
+      "lat": 13.015169,
+      "lon": 80.220824
+    },
+    {
+      "osm_id": 178747904,
+      "name": "Vedhapureeswarar Temple Kulam",
+      "type": "Reservoir",
+      "lat": 13.07175,
+      "lon": 80.115814
+    },
+    {
+      "osm_id": 178751066,
+      "name": "Kamakshi Amman Temple Tank",
+      "type": "Pond",
+      "lat": 13.030481,
+      "lon": 80.109974
+    },
+    {
+      "osm_id": 197488611,
+      "name": "Thandukarai Kulam",
+      "type": "Pond",
+      "lat": 12.925036,
+      "lon": 80.20693
+    },
+    {
+      "osm_id": 201560881,
+      "name": "Okkiyam Maduvu",
+      "type": "River",
+      "lat": 12.923567,
+      "lon": 80.234527
+    },
+    {
+      "osm_id": 202471872,
+      "name": "Adyar River",
+      "type": "River",
+      "lat": 12.931098,
+      "lon": 80.084328
+    },
+    {
+      "osm_id": 202505379,
+      "name": "Cooum",
+      "type": "River",
+      "lat": 13.084628,
+      "lon": 80.05633
+    },
+    {
+      "osm_id": 203215030,
+      "name": "Pallikkaranai Eri",
+      "type": "Lake",
+      "lat": 12.928683,
+      "lon": 80.198188
+    },
+    {
+      "osm_id": 211121334,
+      "name": "Pigeon Pond",
+      "type": "Reservoir",
+      "lat": 12.866058,
+      "lon": 80.22881
+    }
+  ],
+  "public_facilities_and_landmarks": [
+    {
+      "osm_id": 243060332,
+      "name": "Mylapore Bus Terminus",
+      "category": "Bus Station",
+      "lat": 13.033434,
+      "lon": 80.267946
+    },
+    {
+      "osm_id": 247677936,
+      "name": "Foreshore Estate Bus Terminus",
+      "category": "Bus Station",
+      "lat": 13.022402,
+      "lon": 80.276327
+    },
+    {
+      "osm_id": 247691544,
+      "name": "V House Bus Terminus",
+      "category": "Bus Station",
+      "lat": 13.051211,
+      "lon": 80.277839
+    },
+    {
+      "osm_id": 248420920,
+      "name": "KK Nagar",
+      "category": "Hospital",
+      "lat": 13.038649,
+      "lon": 80.205216
+    },
+    {
+      "osm_id": 248454339,
+      "name": "Poonamallee MTC Terminus",
+      "category": "Bus Station",
+      "lat": 13.05116,
+      "lon": 80.094955
+    },
+    {
+      "osm_id": 248560797,
+      "name": "Kasimedu",
+      "category": "Hospital",
+      "lat": 13.122775,
+      "lon": 80.296058
+    },
+    {
+      "osm_id": 258978416,
+      "name": "Amrit Hospital",
+      "category": "Hospital",
+      "lat": 13.092201,
+      "lon": 80.279291
+    },
+    {
+      "osm_id": 258978417,
+      "name": "Apollo Hospital",
+      "category": "Hospital",
+      "lat": 13.098501,
+      "lon": 80.279618
+    },
+    {
+      "osm_id": 262308392,
+      "name": "GingerBread",
+      "category": "Bus Station",
+      "lat": 13.080216,
+      "lon": 80.173696
+    },
+    {
+      "osm_id": 262452334,
+      "name": "City Tower Hospitals",
+      "category": "Hospital",
+      "lat": 13.08438,
+      "lon": 80.216086
+    },
+    {
+      "osm_id": 278746634,
+      "name": "Nanganallur Bus Terminus",
+      "category": "Bus Station",
+      "lat": 12.977807,
+      "lon": 80.181248
+    },
+    {
+      "osm_id": 289486820,
+      "name": "Apollo Hospitals, Tondiarpet",
+      "category": "Hospital",
+      "lat": 13.128937,
+      "lon": 80.290562
+    },
+    {
+      "osm_id": 295544111,
+      "name": "K.H.M. Hospital",
+      "category": "Hospital",
+      "lat": 13.084499,
+      "lon": 80.213059
+    },
+    {
+      "osm_id": 295552091,
+      "name": "Sundaram Medical Foundation",
+      "category": "Hospital",
+      "lat": 13.08217,
+      "lon": 80.206982
+    },
+    {
+      "osm_id": 295552092,
+      "name": "Sri Devi Speciality Hospial",
+      "category": "Hospital",
+      "lat": 13.088798,
+      "lon": 80.199469
+    },
+    {
+      "osm_id": 302899362,
+      "name": "Teynampet FS",
+      "category": "Fire Station",
+      "lat": 13.047447,
+      "lon": 80.249119
+    },
+    {
+      "osm_id": 303590777,
+      "name": "Corporation Hospital",
+      "category": "Hospital",
+      "lat": 13.033662,
+      "lon": 80.257247
+    },
+    {
+      "osm_id": 306104406,
+      "name": "Puratchi Thalaivar Dr. M.G.R Bus Terminus",
+      "category": "Bus Station",
+      "lat": 13.06846,
+      "lon": 80.205125
+    },
+    {
+      "osm_id": 306105674,
+      "name": "Ramapuram Bus Stand",
+      "category": "Bus Station",
+      "lat": 13.034805,
+      "lon": 80.173857
+    },
+    {
+      "osm_id": 306116789,
+      "name": "Vengaivasal Panchayat office",
+      "category": "Townhall",
+      "lat": 12.900024,
+      "lon": 80.171564
+    },
+    {
+      "osm_id": 308032774,
+      "name": "Saligramam Bus Terminus",
+      "category": "Bus Station",
+      "lat": 13.053339,
+      "lon": 80.197083
+    },
+    {
+      "osm_id": 308811614,
+      "name": "Hindu Mission Health Services, Kanchipuram",
+      "category": "Hospital",
+      "lat": 12.978768,
+      "lon": 80.184647
+    },
+    {
+      "osm_id": 310015097,
+      "name": "Military Hospital",
+      "category": "Hospital",
+      "lat": 13.019462,
+      "lon": 80.197295
+    },
+    {
+      "osm_id": 310504820,
+      "name": "Tamil Nadu Government Dental College & Hospital, Chennai",
+      "category": "Hospital",
+      "lat": 13.084889,
+      "lon": 80.282648
+    },
+    {
+      "osm_id": 310732936,
+      "name": "Kilpauk Medical College",
+      "category": "Hospital",
+      "lat": 13.078598,
+      "lon": 80.243337
+    },
+    {
+      "osm_id": 310909754,
+      "name": "Hariharan Hospital",
+      "category": "Hospital",
+      "lat": 12.984715,
+      "lon": 80.190591
+    },
+    {
+      "osm_id": 310910945,
+      "name": "BM Hospital",
+      "category": "Hospital",
+      "lat": 12.988762,
+      "lon": 80.190412
+    },
+    {
+      "osm_id": 311284385,
+      "name": "Perambur MTC Terminus",
+      "category": "Bus Station",
+      "lat": 13.108569,
+      "lon": 80.248252
+    },
+    {
+      "osm_id": 311337040,
+      "name": "ICF MTC Terminus",
+      "category": "Bus Station",
+      "lat": 13.100243,
+      "lon": 80.214714
+    },
+    {
+      "osm_id": 311429396,
+      "name": "K.F. Hospital",
+      "category": "Hospital",
+      "lat": 12.973463,
+      "lon": 80.18414
+    },
+    {
+      "osm_id": 312000326,
+      "name": "Cancer Institute",
+      "category": "Hospital",
+      "lat": 13.006134,
+      "lon": 80.239884
+    },
+    {
+      "osm_id": 313027868,
+      "name": "Sri Ramachandra Medical Centre and Hospital",
+      "category": "Hospital",
+      "lat": 13.038098,
+      "lon": 80.142805
+    },
+    {
+      "osm_id": 320275820,
+      "name": "Govt Maternity Hospital",
+      "category": "Hospital",
+      "lat": 13.0721,
+      "lon": 80.258987
+    },
+    {
+      "osm_id": 320275824,
+      "name": "Institute of Child Health",
+      "category": "Hospital",
+      "lat": 13.07355,
+      "lon": 80.257025
+    },
+    {
+      "osm_id": 320275839,
+      "name": "Institute of Obstetrics and Gynaecology dd",
+      "category": "Hospital",
+      "lat": 13.073543,
+      "lon": 80.259146
+    },
+    {
+      "osm_id": 321659385,
+      "name": "Manali MTC Terminus",
+      "category": "Bus Station",
+      "lat": 13.169977,
+      "lon": 80.257159
+    },
+    {
+      "osm_id": 321661962,
+      "name": "Madhavaram MTC Terminus",
+      "category": "Bus Station",
+      "lat": 13.152368,
+      "lon": 80.228345
+    },
+    {
+      "osm_id": 332004894,
+      "name": "Kundrathur Temple MTC Terminus",
+      "category": "Bus Station",
+      "lat": 12.987217,
+      "lon": 80.093238
+    },
+    {
+      "osm_id": 340042533,
+      "name": "Hasthinapuram MTC Terminus",
+      "category": "Bus Station",
+      "lat": 12.940444,
+      "lon": 80.150586
+    },
+    {
+      "osm_id": 340088810,
+      "name": "Tambaram MTC Terminus",
+      "category": "Bus Station",
+      "lat": 12.925339,
+      "lon": 80.116745
+    },
+    {
+      "osm_id": 340088821,
+      "name": "Tambaram East MTC Terminus",
+      "category": "Bus Station",
+      "lat": 12.923598,
+      "lon": 80.117091
+    },
+    {
+      "osm_id": 344420267,
+      "name": "Ayanavaram MTC Terminus",
+      "category": "Bus Station",
+      "lat": 13.098591,
+      "lon": 80.242004
+    },
+    {
+      "osm_id": 359120280,
+      "name": "Erumaivettipalayam Bus Stand",
+      "category": "Bus Station",
+      "lat": 13.242455,
+      "lon": 80.120113
+    },
+    {
+      "osm_id": 360562773,
+      "name": "Puzhuthivakkam Bus Stand",
+      "category": "Bus Station",
+      "lat": 12.97398,
+      "lon": 80.202931
+    },
+    {
+      "osm_id": 364650995,
+      "name": "MIOT International",
+      "category": "Hospital",
+      "lat": 13.021181,
+      "lon": 80.185841
+    },
+    {
+      "osm_id": 364997861,
+      "name": "Central Institute of Petrochemicals Engineering and Technology",
+      "category": "College",
+      "lat": 13.014131,
+      "lon": 80.205218
+    },
+    {
+      "osm_id": 367795605,
+      "name": "St. Thomas Hospital",
+      "category": "Hospital",
+      "lat": 13.012273,
+      "lon": 80.196428
+    },
+    {
+      "osm_id": 370969659,
+      "name": "Ayyapanthangal",
+      "category": "Bus Station",
+      "lat": 13.037793,
+      "lon": 80.134942
+    },
+    {
+      "osm_id": 373077167,
+      "name": "Ennore MTC Terminus",
+      "category": "Bus Station",
+      "lat": 13.214722,
+      "lon": 80.320837
+    },
+    {
+      "osm_id": 375668400,
+      "name": "Venkataeswara Hospitals",
+      "category": "Hospital",
+      "lat": 13.029362,
+      "lon": 80.244092
+    },
+    {
+      "osm_id": 389964614,
+      "name": "KK Nagar West MTC Terminus",
+      "category": "Bus Station",
+      "lat": 13.044159,
+      "lon": 80.193303
+    },
+    {
+      "osm_id": 401695312,
+      "name": "Kannagi Nagar MTCTerminus",
+      "category": "Bus Station",
+      "lat": 12.925654,
+      "lon": 80.238308
+    },
+    {
+      "osm_id": 401769770,
+      "name": "NGO Colony Bus Terminus",
+      "category": "Bus Station",
+      "lat": 12.994789,
+      "lon": 80.206816
+    },
+    {
+      "osm_id": 402290805,
+      "name": "Thiruverkadu Bus Depot",
+      "category": "Bus Station",
+      "lat": 13.069585,
+      "lon": 80.124022
+    },
+    {
+      "osm_id": 402298612,
+      "name": "Semmanchery MTC Terminus",
+      "category": "Bus Station",
+      "lat": 12.874697,
+      "lon": 80.209765
+    },
+    {
+      "osm_id": 402656745,
+      "name": "Elango Nagar MTC Terminus",
+      "category": "Bus Station",
+      "lat": 13.090602,
+      "lon": 80.185474
+    },
+    {
+      "osm_id": 402750050,
+      "name": "Parvathi Nagar MTC Terminus",
+      "category": "Bus Station",
+      "lat": 13.145751,
+      "lon": 80.250441
+    },
+    {
+      "osm_id": 432468191,
+      "name": "DCOE Office",
+      "category": "College",
+      "lat": 12.948973,
+      "lon": 80.13975
+    },
+    {
+      "osm_id": 432468195,
+      "name": "Lecture Hall Complex",
+      "category": "College",
+      "lat": 12.948156,
+      "lon": 80.139789
+    },
+    {
+      "osm_id": 432468196,
+      "name": "Department of Aeronautical Engineering",
+      "category": "College",
+      "lat": 12.948617,
+      "lon": 80.140799
+    },
+    {
+      "osm_id": 432468200,
+      "name": "Mechatronics",
+      "category": "College",
+      "lat": 12.949113,
+      "lon": 80.140979
+    },
+    {
+      "osm_id": 432468201,
+      "name": "Department of Production Technology",
+      "category": "College",
+      "lat": 12.949294,
+      "lon": 80.141098
+    },
+    {
+      "osm_id": 432468205,
+      "name": "Department of Automobile Engineering",
+      "category": "College",
+      "lat": 12.947881,
+      "lon": 80.14034
+    },
+    {
+      "osm_id": 432468246,
+      "name": "RLHC (Rajam Lecture Hall Complex)",
+      "category": "College",
+      "lat": 12.948469,
+      "lon": 80.139853
+    },
+    {
+      "osm_id": 442132009,
+      "name": "Tambaram Bus Stand",
+      "category": "Bus Station",
+      "lat": 12.927719,
+      "lon": 80.118742
+    },
+    {
+      "osm_id": 442508332,
+      "name": "Sarswathi Hospital",
+      "category": "Hospital",
+      "lat": 12.965385,
+      "lon": 80.206773
+    },
+    {
+      "osm_id": 442538699,
+      "name": "Madipakkam Bus Stand",
+      "category": "Bus Station",
+      "lat": 12.962861,
+      "lon": 80.198284
+    },
+    {
+      "osm_id": 459635161,
+      "name": "Apollo Clinic & Pharmacy",
+      "category": "Hospital",
+      "lat": 13.05244,
+      "lon": 80.204166
+    },
+    {
+      "osm_id": 459648701,
+      "name": "Vijaya Heart Centre",
+      "category": "Hospital",
+      "lat": 13.048382,
+      "lon": 80.207014
+    },
+    {
+      "osm_id": 540658116,
+      "name": "B.M.Orthopaedic Hospital",
+      "category": "Hospital",
+      "lat": 13.11811,
+      "lon": 80.149941
+    },
+    {
+      "osm_id": 591555028,
+      "name": "skandan nursing home",
+      "category": "Hospital",
+      "lat": 12.944794,
+      "lon": 80.14056
+    },
+    {
+      "osm_id": 595706154,
+      "name": "Vasan Eye Care Hospital, Vadapalani",
+      "category": "Hospital",
+      "lat": 13.049532,
+      "lon": 80.211027
+    },
+    {
+      "osm_id": 597590621,
+      "name": "JJ Hospital",
+      "category": "Hospital",
+      "lat": 13.057129,
+      "lon": 80.194214
+    },
+    {
+      "osm_id": 612556884,
+      "name": "Anna Adharsh College for Women",
+      "category": "College",
+      "lat": 13.079845,
+      "lon": 80.210686
+    },
+    {
+      "osm_id": 675894194,
+      "name": "Vinayakapuram",
+      "category": "Bus Station",
+      "lat": 13.139863,
+      "lon": 80.20568
+    },
+    {
+      "osm_id": 941471945,
+      "name": "Appasamy Hospital",
+      "category": "Hospital",
+      "lat": 13.075045,
+      "lon": 80.21512
+    },
+    {
+      "osm_id": 941611681,
+      "name": "Appasamy Hospital",
+      "category": "Hospital",
+      "lat": 13.073239,
+      "lon": 80.214883
+    },
+    {
+      "osm_id": 941621037,
+      "name": "Appolo Clinic",
+      "category": "Hospital",
+      "lat": 13.089207,
+      "lon": 80.217887
+    },
+    {
+      "osm_id": 968597207,
+      "name": "The Institute of Mathematical Sciences",
+      "category": "College",
+      "lat": 12.994084,
+      "lon": 80.247014
+    },
+    {
+      "osm_id": 983957836,
+      "name": "Meenakshi Krishan Polytechnic College",
+      "category": "College",
+      "lat": 12.965618,
+      "lon": 80.127509
+    },
+    {
+      "osm_id": 983957837,
+      "name": "Sankara Eye Hospital, Kanchipuram",
+      "category": "Hospital",
+      "lat": 12.965059,
+      "lon": 80.128212
+    },
+    {
+      "osm_id": 1015571498,
+      "name": "Srm Speciality Hospital",
+      "category": "Hospital",
+      "lat": 13.033133,
+      "lon": 80.181086
+    },
+    {
+      "osm_id": 1015571601,
+      "name": "SRM Dental Hospital",
+      "category": "Hospital",
+      "lat": 13.032129,
+      "lon": 80.18012
+    },
+    {
+      "osm_id": 1127285905,
+      "name": "Aakash Fertility Centre & Hospital",
+      "category": "Hospital",
+      "lat": 13.05546,
+      "lon": 80.211837
+    },
+    {
+      "osm_id": 1152858038,
+      "name": "Rajan Eye Care Hospital",
+      "category": "Hospital",
+      "lat": 13.050833,
+      "lon": 80.243442
+    },
+    {
+      "osm_id": 1315895438,
+      "name": "sree dhanalakshmi family clinic",
+      "category": "Hospital",
+      "lat": 13.058305,
+      "lon": 80.211745
+    },
+    {
+      "osm_id": 1391028778,
+      "name": "KK Nagar MTC Terminus",
+      "category": "Bus Station",
+      "lat": 13.035422,
+      "lon": 80.205717
+    },
+    {
+      "osm_id": 1391573894,
+      "name": "IOC MTC Terminus",
+      "category": "Bus Station",
+      "lat": 13.139069,
+      "lon": 80.282031
+    },
+    {
+      "osm_id": 1391573897,
+      "name": "Thirovttriyur MTC Terminus",
+      "category": "Bus Station",
+      "lat": 13.172164,
+      "lon": 80.305091
+    },
+    {
+      "osm_id": 1428608424,
+      "name": "Mathur MMDA",
+      "category": "Bus Station",
+      "lat": 13.171374,
+      "lon": 80.247506
+    },
+    {
+      "osm_id": 1446415367,
+      "name": "Bhadra Homeo",
+      "category": "Hospital",
+      "lat": 12.966388,
+      "lon": 80.247472
+    },
+    {
+      "osm_id": 1472969165,
+      "name": "Amma Hospital",
+      "category": "Hospital",
+      "lat": 13.062605,
+      "lon": 80.230521
+    },
+    {
+      "osm_id": 1474055555,
+      "name": "Right Hospitals",
+      "category": "Hospital",
+      "lat": 13.078795,
+      "lon": 80.240573
+    },
+    {
+      "osm_id": 1483766085,
+      "name": "Miranda residence",
+      "category": "Townhall",
+      "lat": 12.899125,
+      "lon": 80.173774
+    },
+    {
+      "osm_id": 1560720462,
+      "name": "Vasan Eye Care Hospital",
+      "category": "Hospital",
+      "lat": 13.001531,
+      "lon": 80.255254
+    },
+    {
+      "osm_id": 1621246558,
+      "name": "Ashwini Eye Care",
+      "category": "Hospital",
+      "lat": 13.118708,
+      "lon": 80.157242
+    },
+    {
+      "osm_id": 1693526124,
+      "name": "Medavakkam Bus Terminus",
+      "category": "Bus Station",
+      "lat": 12.919728,
+      "lon": 80.182261
+    },
+    {
+      "osm_id": 1789987574,
+      "name": "Prime Care Nursing Home",
+      "category": "Hospital",
+      "lat": 12.979919,
+      "lon": 80.204492
+    },
+    {
+      "osm_id": 1833926660,
+      "name": "ACS Medical College And Hospital",
+      "category": "Hospital",
+      "lat": 13.057521,
+      "lon": 80.127824
+    },
+    {
+      "osm_id": 1948616260,
+      "name": "Apollo Free Emergency Clinic",
+      "category": "Hospital",
+      "lat": 13.067723,
+      "lon": 80.205005
+    },
+    {
+      "osm_id": 1955943159,
+      "name": "Agarwal Hospital",
+      "category": "Hospital",
+      "lat": 13.038566,
+      "lon": 80.216584
+    },
+    {
+      "osm_id": 1957903721,
+      "name": "Senthil Nursing Home",
+      "category": "Hospital",
+      "lat": 13.084967,
+      "lon": 80.200475
+    },
+    {
+      "osm_id": 1957904106,
+      "name": "I K Hospital",
+      "category": "Hospital",
+      "lat": 13.086867,
+      "lon": 80.199166
+    },
+    {
+      "osm_id": 1979247767,
+      "name": "B.P. Jain Hospital (Sri Sankara Health Centre)",
+      "category": "Hospital",
+      "lat": 12.973064,
+      "lon": 80.133966
+    },
+    {
+      "osm_id": 1993266486,
+      "name": "Ortho clinic",
+      "category": "Hospital",
+      "lat": 12.980046,
+      "lon": 80.228659
+    },
+    {
+      "osm_id": 2072479943,
+      "name": "JK Hospital",
+      "category": "Hospital",
+      "lat": 13.035856,
+      "lon": 80.16449
+    },
+    {
+      "osm_id": 2120763195,
+      "name": "SP Hospital",
+      "category": "Hospital",
+      "lat": 12.993364,
+      "lon": 80.200913
+    },
+    {
+      "osm_id": 2124734395,
+      "name": "Fourtts India Laboratories",
+      "category": "Hospital",
+      "lat": 12.932168,
+      "lon": 80.233739
+    },
+    {
+      "osm_id": 2126461371,
+      "name": "Rotary Central Margaret Sidney Hospital",
+      "category": "Hospital",
+      "lat": 12.983796,
+      "lon": 80.193211
+    },
+    {
+      "osm_id": 2145405955,
+      "name": "Sri Chakra Hospital",
+      "category": "Hospital",
+      "lat": 12.978652,
+      "lon": 80.185028
+    },
+    {
+      "osm_id": 2210056220,
+      "name": "Rajan Hospital",
+      "category": "Hospital",
+      "lat": 12.89285,
+      "lon": 80.183598
+    },
+    {
+      "osm_id": 2210065615,
+      "name": "Valluvar Nagar Bus Stop",
+      "category": "Bus Station",
+      "lat": 12.893383,
+      "lon": 80.183493
+    },
+    {
+      "osm_id": 2253361647,
+      "name": "Dr. Janardhanan Multispeciality Dental Clinic",
+      "category": "Hospital",
+      "lat": 12.984259,
+      "lon": 80.188608
+    },
+    {
+      "osm_id": 2296731456,
+      "name": "Dr Venugopals' Sundaram Clini",
+      "category": "Hospital",
+      "lat": 13.076782,
+      "lon": 80.268345
+    },
+    {
+      "osm_id": 2296731781,
+      "name": "Dr Kabir's Clinic",
+      "category": "Hospital",
+      "lat": 13.076873,
+      "lon": 80.267838
+    },
+    {
+      "osm_id": 2296732187,
+      "name": "Dr Sridhars'Clinic",
+      "category": "Hospital",
+      "lat": 13.076434,
+      "lon": 80.267243
+    },
+    {
+      "osm_id": 2381473122,
+      "name": "NIIT",
+      "category": "College",
+      "lat": 13.089879,
+      "lon": 80.286275
+    },
+    {
+      "osm_id": 2394711912,
+      "name": "IID Community College",
+      "category": "College",
+      "lat": 13.068776,
+      "lon": 80.218961
+    },
+    {
+      "osm_id": 2485567524,
+      "name": "Vepery Hospital",
+      "category": "Hospital",
+      "lat": 13.092181,
+      "lon": 80.259441
+    },
+    {
+      "osm_id": 2517035814,
+      "name": "Vasan Eye care",
+      "category": "Hospital",
+      "lat": 12.9658,
+      "lon": 80.191882
+    },
+    {
+      "osm_id": 2559180846,
+      "name": "Jaws Dental Foundation",
+      "category": "Hospital",
+      "lat": 13.092967,
+      "lon": 80.223626
+    },
+    {
+      "osm_id": 2587530810,
+      "name": "Chennai Skin Foundation",
+      "category": "Hospital",
+      "lat": 13.020568,
+      "lon": 80.25947
+    },
+    {
+      "osm_id": 2669702938,
+      "name": "Sukrthi Nursing Home",
+      "category": "Hospital",
+      "lat": 12.971029,
+      "lon": 80.208296
+    },
+    {
+      "osm_id": 2794348661,
+      "name": "A.N.N Hospital",
+      "category": "Hospital",
+      "lat": 13.040594,
+      "lon": 80.178462
+    },
+    {
+      "osm_id": 2966142809,
+      "name": "Appolo Speciality Hospital Vanagram",
+      "category": "Hospital",
+      "lat": 13.070504,
+      "lon": 80.150612
+    },
+    {
+      "osm_id": 3027045820,
+      "name": "GKM College of Engineering",
+      "category": "College",
+      "lat": 12.8956,
+      "lon": 80.121482
+    },
+    {
+      "osm_id": 3029313653,
+      "name": "Tamil Nadu Fire and Rescue Services",
+      "category": "Fire Station",
+      "lat": 12.943636,
+      "lon": 80.133596
+    },
+    {
+      "osm_id": 3118864398,
+      "name": "Kauvery Hospital",
+      "category": "Hospital",
+      "lat": 13.03817,
+      "lon": 80.257301
+    },
+    {
+      "osm_id": 3157617785,
+      "name": "Dr Mohan's Diabetes Hospital",
+      "category": "Hospital",
+      "lat": 12.925574,
+      "lon": 80.128133
+    },
+    {
+      "osm_id": 3264888779,
+      "name": "Guindy Bus Stand",
+      "category": "Bus Station",
+      "lat": 13.009059,
+      "lon": 80.210793
+    },
+    {
+      "osm_id": 3372786283,
+      "name": "Velachery SABA Hospital",
+      "category": "Hospital",
+      "lat": 12.986273,
+      "lon": 80.229892
+    },
+    {
+      "osm_id": 3615415200,
+      "name": "Asian College of Journalism",
+      "category": "College",
+      "lat": 12.996162,
+      "lon": 80.24628
+    },
+    {
+      "osm_id": 3664004950,
+      "name": "Chellam Hospital",
+      "category": "Hospital",
+      "lat": 12.901295,
+      "lon": 80.158376
+    },
+    {
+      "osm_id": 3687711447,
+      "name": "Kaya Skin clinic",
+      "category": "Hospital",
+      "lat": 12.976778,
+      "lon": 80.222351
+    },
+    {
+      "osm_id": 3702797921,
+      "name": "Madras Medical Mission Hospital - Institute of Cardio Vascular Diseases",
+      "category": "Hospital",
+      "lat": 13.085996,
+      "lon": 80.187059
+    },
+    {
+      "osm_id": 3982078512,
+      "name": "Pavithra Hospital",
+      "category": "Hospital",
+      "lat": 13.126091,
+      "lon": 80.248841
+    },
+    {
+      "osm_id": 4221573903,
+      "name": "JKCN Complex (Sankara Nethralaya)",
+      "category": "Hospital",
+      "lat": 13.064256,
+      "lon": 80.249775
+    },
+    {
+      "osm_id": 4329387869,
+      "name": "Srinivasan Rajalakshmi Memorial Hospital",
+      "category": "Hospital",
+      "lat": 12.973379,
+      "lon": 80.187599
+    },
+    {
+      "osm_id": 4406456514,
+      "name": "Tamilnadu Teachers Education University",
+      "category": "University",
+      "lat": 12.915701,
+      "lon": 80.236465
+    },
+    {
+      "osm_id": 4486583996,
+      "name": "Chennai Medical Centre Hospital",
+      "category": "Hospital",
+      "lat": 13.038005,
+      "lon": 80.188969
+    },
+    {
+      "osm_id": 4488082604,
+      "name": "SRM Institutes For Medical Science",
+      "category": "Hospital",
+      "lat": 13.051596,
+      "lon": 80.21143
+    },
+    {
+      "osm_id": 4546369389,
+      "name": "Paulo bus stand",
+      "category": "Bus Station",
+      "lat": 13.069513,
+      "lon": 80.199087
+    },
+    {
+      "osm_id": 4549842392,
+      "name": "JBN Community Hall",
+      "category": "Townhall",
+      "lat": 13.090446,
+      "lon": 80.190715
+    },
+    {
+      "osm_id": 4554279725,
+      "name": "Vivekanandha",
+      "category": "Hospital",
+      "lat": 13.110898,
+      "lon": 80.095284
+    },
+    {
+      "osm_id": 4584956489,
+      "name": "Department of Electrical Engineering;Electrical Engineering Department",
+      "category": "University",
+      "lat": 12.988714,
+      "lon": 80.230688
+    },
+    {
+      "osm_id": 4740298624,
+      "name": "government child health center",
+      "category": "Hospital",
+      "lat": 12.924167,
+      "lon": 80.127445
+    },
+    {
+      "osm_id": 4740298625,
+      "name": "Christdas hospital",
+      "category": "Hospital",
+      "lat": 12.922971,
+      "lon": 80.12982
+    },
+    {
+      "osm_id": 4764302980,
+      "name": "HEALTH",
+      "category": "Hospital",
+      "lat": 13.0136,
+      "lon": 80.239536
+    },
+    {
+      "osm_id": 4813324323,
+      "name": "GURU EYE HOSPITAL",
+      "category": "Hospital",
+      "lat": 13.113302,
+      "lon": 80.290525
+    },
+    {
+      "osm_id": 4911075821,
+      "name": "Lakshya fertility hospital",
+      "category": "Hospital",
+      "lat": 12.926122,
+      "lon": 80.126519
+    },
+    {
+      "osm_id": 5087493136,
+      "name": "Sugam homeopathic hospital",
+      "category": "Hospital",
+      "lat": 12.923099,
+      "lon": 80.130824
+    },
+    {
+      "osm_id": 5087493227,
+      "name": "Dr. KK eye care center",
+      "category": "Hospital",
+      "lat": 12.922066,
+      "lon": 80.138133
+    },
+    {
+      "osm_id": 5087493324,
+      "name": "Be Well Hospital",
+      "category": "Hospital",
+      "lat": 12.92201,
+      "lon": 80.141779
+    },
+    {
+      "osm_id": 5090924224,
+      "name": "Chellam Super Speciality Center",
+      "category": "Hospital",
+      "lat": 12.923785,
+      "lon": 80.158953
+    },
+    {
+      "osm_id": 5090926024,
+      "name": "New Life Hospital",
+      "category": "Hospital",
+      "lat": 12.922517,
+      "lon": 80.152236
+    },
+    {
+      "osm_id": 5230370403,
+      "name": "Mogappair West Bus Terminus",
+      "category": "Bus Station",
+      "lat": 13.082209,
+      "lon": 80.170411
+    },
+    {
+      "osm_id": 5231956170,
+      "name": "S.A Engineering College",
+      "category": "College",
+      "lat": 13.0655,
+      "lon": 80.110851
+    },
+    {
+      "osm_id": 5258976324,
+      "name": "Government Health Center",
+      "category": "Hospital",
+      "lat": 12.885562,
+      "lon": 80.151595
+    },
+    {
+      "osm_id": 5259008321,
+      "name": "Annai Therasa Hospital",
+      "category": "Hospital",
+      "lat": 12.891741,
+      "lon": 80.141261
+    },
+    {
+      "osm_id": 5259088422,
+      "name": "Government Veterinary Hospital",
+      "category": "Hospital",
+      "lat": 12.885516,
+      "lon": 80.152282
+    },
+    {
+      "osm_id": 5259129922,
+      "name": "Sindhu hospital",
+      "category": "Hospital",
+      "lat": 12.920747,
+      "lon": 80.14379
+    },
+    {
+      "osm_id": 5259141323,
+      "name": "Bedhesda hospital",
+      "category": "Hospital",
+      "lat": 12.920113,
+      "lon": 80.144379
+    },
+    {
+      "osm_id": 5263563022,
+      "name": "J.M Hoapital",
+      "category": "Hospital",
+      "lat": 13.113136,
+      "lon": 80.242937
+    },
+    {
+      "osm_id": 5282745421,
+      "name": "Loyola-Icam College of Engineering and Technology",
+      "category": "College",
+      "lat": 13.059237,
+      "lon": 80.233731
+    },
+    {
+      "osm_id": 5302938624,
+      "name": "Kottakkal Arya Vaidhyasala",
+      "category": "Hospital",
+      "lat": 12.920372,
+      "lon": 80.144391
+    },
+    {
+      "osm_id": 5304600401,
+      "name": "Mohamed Sathak A.J. Academy of Architecture",
+      "category": "College",
+      "lat": 12.834632,
+      "lon": 80.221407
+    },
+    {
+      "osm_id": 5304600788,
+      "name": "Mohamed Sathak A.J. College of Engineering",
+      "category": "College",
+      "lat": 12.835692,
+      "lon": 80.218602
+    },
+    {
+      "osm_id": 5318548733,
+      "name": "SRM Travels",
+      "category": "Bus Station",
+      "lat": 13.071098,
+      "lon": 80.202996
+    },
+    {
+      "osm_id": 5321368440,
+      "name": "Marhura hospital",
+      "category": "Hospital",
+      "lat": 12.836928,
+      "lon": 80.227573
+    },
+    {
+      "osm_id": 5336542921,
+      "name": "The Crescent Hospital",
+      "category": "Hospital",
+      "lat": 13.052724,
+      "lon": 80.272734
+    },
+    {
+      "osm_id": 5354315736,
+      "name": "Fire service station;Fire Force Service center",
+      "category": "Fire Station",
+      "lat": 12.976853,
+      "lon": 80.227634
+    },
+    {
+      "osm_id": 5367950021,
+      "name": "Biocosmo Healthcare",
+      "category": "Hospital",
+      "lat": 13.059033,
+      "lon": 80.237533
+    },
+    {
+      "osm_id": 5372322923,
+      "name": "Liba extension centre",
+      "category": "College",
+      "lat": 13.059306,
+      "lon": 80.236771
+    },
+    {
+      "osm_id": 5372361521,
+      "name": "Loyola Institute of Business Administration",
+      "category": "College",
+      "lat": 13.05904,
+      "lon": 80.236793
+    },
+    {
+      "osm_id": 5485650822,
+      "name": "Ramakrishna Mission Vivekanandha College",
+      "category": "College",
+      "lat": 13.04071,
+      "lon": 80.264394
+    },
+    {
+      "osm_id": 5492573024,
+      "name": "VSR Hospital",
+      "category": "Hospital",
+      "lat": 13.079968,
+      "lon": 80.180559
+    },
+    {
+      "osm_id": 5492577281,
+      "name": "New Life Family Hospitals",
+      "category": "Hospital",
+      "lat": 13.080048,
+      "lon": 80.180498
+    },
+    {
+      "osm_id": 5500158687,
+      "name": "Vijaya Group of Hospital",
+      "category": "Hospital",
+      "lat": 13.049739,
+      "lon": 80.208322
+    },
+    {
+      "osm_id": 5547728024,
+      "name": "hiba specility hospital",
+      "category": "Hospital",
+      "lat": 13.061521,
+      "lon": 80.275747
+    },
+    {
+      "osm_id": 5570522545,
+      "name": "ARK Hospital",
+      "category": "Hospital",
+      "lat": 12.9857,
+      "lon": 80.229354
+    }
+  ],
+  "gcc_zone_centers": [
+    {
+      "name": "Zone I — Thiruvottiyur",
+      "code": "GCC Zone I",
+      "lat": 13.172,
+      "lon": 80.304,
+      "corridor": "North Coastal Industrial & Residential Belt"
+    },
+    {
+      "name": "Zone II — Manali",
+      "code": "GCC Zone II",
+      "lat": 13.178,
+      "lon": 80.259,
+      "corridor": "North Industrial & Petrochemical Corridor"
+    },
+    {
+      "name": "Zone III — Madhavaram",
+      "code": "GCC Zone III",
+      "lat": 13.152,
+      "lon": 80.214,
+      "corridor": "North-West Logistics & Reservoir Catchment Belt"
+    },
+    {
+      "name": "Zone IV — Tondiarpet",
+      "code": "GCC Zone IV",
+      "lat": 13.126,
+      "lon": 80.268,
+      "corridor": "North-East High-Density Urban & Port Hinterland"
+    },
+    {
+      "name": "Zone V — Royapuram",
+      "code": "GCC Zone V",
+      "lat": 13.092,
+      "lon": 80.275,
+      "corridor": "Historic Core, Commercial & Harbour Precinct"
+    },
+    {
+      "name": "Zone VI — Thiru. Vi. Ka. Nagar",
+      "code": "GCC Zone VI",
+      "lat": 13.106,
+      "lon": 80.236,
+      "corridor": "North-Central Residential & Railway Workshop Belt"
+    },
+    {
+      "name": "Zone VII — Ambattur",
+      "code": "GCC Zone VII",
+      "lat": 13.101,
+      "lon": 80.172,
+      "corridor": "Western Industrial Estate & IT/Manufacturing Hub"
+    },
+    {
+      "name": "Zone VIII — Anna Nagar",
+      "code": "GCC Zone VIII",
+      "lat": 13.079,
+      "lon": 80.218,
+      "corridor": "Planned Residential & Institutional Corridor"
+    },
+    {
+      "name": "Zone IX — Teynampet",
+      "code": "GCC Zone IX",
+      "lat": 13.048,
+      "lon": 80.254,
+      "corridor": "Central Business District, Cultural & Diplomatic Core"
+    },
+    {
+      "name": "Zone X — Kodambakkam",
+      "code": "GCC Zone X",
+      "lat": 13.044,
+      "lon": 80.214,
+      "corridor": "Central-West Commercial & High-Density Residential Hub"
+    },
+    {
+      "name": "Zone XI — Valasaravakkam",
+      "code": "GCC Zone XI",
+      "lat": 13.044,
+      "lon": 80.168,
+      "corridor": "Western Sub-Arterial Residential & Arcot Road Corridor"
+    },
+    {
+      "name": "Zone XII — Alandur",
+      "code": "GCC Zone XII",
+      "lat": 12.992,
+      "lon": 80.194,
+      "corridor": "Airport, Cantonment & Southern Transit Interchange"
+    },
+    {
+      "name": "Zone XIII — Adyar",
+      "code": "GCC Zone XIII",
+      "lat": 12.998,
+      "lon": 80.252,
+      "corridor": "South-Central Estuary, Institutional & Coastal Belt"
+    },
+    {
+      "name": "Zone XIV — Perungudi",
+      "code": "GCC Zone XIV",
+      "lat": 12.956,
+      "lon": 80.218,
+      "corridor": "IT Corridor North, Pallikaranai Marshland & South Residential"
+    },
+    {
+      "name": "Zone XV — Sholinganallur",
+      "code": "GCC Zone XV",
+      "lat": 12.902,
+      "lon": 80.241,
+      "corridor": "OMR IT Special Economic Corridor & ECR Coastal Belt"
+    }
+  ],
+  "coastline_polyline": [
+    [
+      13.255,
+      80.332
+    ],
+    [
+      13.2258,
+      80.3285
+    ],
+    [
+      13.195,
+      80.319
+    ],
+    [
+      13.165,
+      80.3105
+    ],
+    [
+      13.135,
+      80.2995
+    ],
+    [
+      13.114,
+      80.2965
+    ],
+    [
+      13.09,
+      80.2925
+    ],
+    [
+      13.065,
+      80.2865
+    ],
+    [
+      13.04,
+      80.281
+    ],
+    [
+      13.015,
+      80.2775
+    ],
+    [
+      12.995,
+      80.2725
+    ],
+    [
+      12.97,
+      80.2665
+    ],
+    [
+      12.945,
+      80.2605
+    ],
+    [
+      12.915,
+      80.2545
+    ],
+    [
+      12.885,
+      80.2505
+    ],
+    [
+      12.85,
+      80.2465
+    ],
+    [
+      12.82,
+      80.244
+    ]
+  ],
+  "external_services": [
+    {
+      "id": "esri-topo-dark",
+      "name": "Esri World Topographic Base (Dark Terrain Filter)",
+      "provider": "Esri, USGS, METI/NASA, GIS User Community",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}",
+      "status": "Available (Live Tile Service — Key-Free)",
+      "license": "Esri Master License Agreement (Attribution Required)",
+      "integration_type": "Direct XYZ Topographic & Civic Tile Layer"
+    },
+    {
+      "id": "esri-street-base",
+      "name": "Esri World Street & Civic Cartography",
+      "provider": "Esri, DeLorme, NAVTEQ, TomTom, Intermap",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+      "status": "Available (Live Tile Service — Key-Free)",
+      "license": "Esri Master License Agreement (Attribution Required)",
+      "integration_type": "Direct XYZ Raster Tile Layer"
+    },
+    {
+      "id": "opentopomap",
+      "name": "OpenTopoMap Contours & Elevation Relief",
+      "provider": "OpenTopoMap (SRTM + OSM)",
+      "url": "https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png",
+      "status": "Available (Live Tile Service)",
+      "license": "CC-BY-SA 3.0 — © OpenTopoMap & SRTM",
+      "integration_type": "Direct XYZ Topographic Contour Tile Layer"
+    },
+    {
+      "id": "esri-world-imagery",
+      "name": "Esri World Imagery (High-Res Satellite)",
+      "provider": "Esri, Maxar, Earthstar Geographics",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      "status": "Available (Live Tile Service)",
+      "license": "Esri Master License Agreement (Attribution Required)",
+      "integration_type": "Direct XYZ Satellite Tile Layer"
+    },
+    {
+      "id": "tngis-wms",
+      "name": "TNGIS GeoServer WMS (tngis.tn.gov.in/tngismaps/wms)",
+      "provider": "Tamil Nadu e-Governance Agency (TNeGA) — TNGIS",
+      "url": "https://tngis.tn.gov.in/tngismaps/wms",
+      "portal_url": "https://tngis.tn.gov.in/apps.html",
+      "status": "Restricted / Intranet-Gated WMS (Portal HTML Accessible; Direct WMS GetCapabilities Timed Out)",
+      "license": "Government of Tamil Nadu — State GIS Portal Terms",
+      "integration_type": "Honest Fallback: Portal Reference + Local GeoJSON Import Workflow Supported"
+    },
+    {
+      "id": "tngis-cumta",
+      "name": "TNGIS CUMTA Transport Viewer (tngis.tn.gov.in/apps/cumta/)",
+      "provider": "Chennai Unified Metropolitan Transport Authority (CUMTA) & TNeGA",
+      "url": "https://tngis.tn.gov.in/apps/cumta/",
+      "api_url": "https://tngis.tn.gov.in/apps/api/cumta_api/api/data.php",
+      "status": "Portal Accessible (HTTP 200); Session-Protected POST API; Transit Nodes Sourced via OpenStreetMap Overpass",
+      "license": "Government of Tamil Nadu / CUMTA",
+      "integration_type": "Honest Fallback: Verified OSM CMRL/Suburban/MTC Transit Overlay + Official CUMTA Portal Link"
+    }
+  ]
+}
