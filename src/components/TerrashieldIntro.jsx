@@ -5,7 +5,7 @@ import { ArrowRight, Volume2, VolumeX } from 'lucide-react';
  * TerrashieldIntro
  * Cinematic full-screen opening animation:
  * Dark Terrain -> Lightning Strike -> Shockwave & Debris ->
- * Particle Swirl Convergence -> Assembles into "TERRASHIELD AI" ->
+ * Particle Swirl Convergence -> Assembles into "TERRAFORGE AI" ->
  * Forged Metal Glow & Sparks -> Smooth Dissolve to Website.
  */
 export default function TerrashieldIntro({ onComplete }) {
@@ -71,7 +71,7 @@ export default function TerrashieldIntro({ onComplete }) {
     window.addEventListener('resize', handleResize);
 
     // =========================================================================
-    // 1. SAMPLE TARGET LETTER GLYPH POINTS FOR "TERRASHIELD AI"
+    // 1. SAMPLE TARGET LETTER GLYPH POINTS FOR "TERRAFORGE AI"
     // =========================================================================
     const sampleTextTargets = (w, h) => {
       const offCanvas = document.createElement('canvas');
@@ -80,9 +80,9 @@ export default function TerrashieldIntro({ onComplete }) {
       const offCtx = offCanvas.getContext('2d');
       if (!offCtx) return [];
 
-      const text = 'TERRASHIELD AI';
+      const text = 'TERRAFORGE AI';
       // Compute responsive font size
-      const fontSize = Math.max(28, Math.min(78, Math.floor(w / 14.5)));
+      const fontSize = Math.max(28, Math.min(80, Math.floor(w / 14)));
       offCtx.font = `900 ${fontSize}px "Space Grotesk", "Plus Jakarta Sans", system-ui, sans-serif`;
       offCtx.textAlign = 'center';
       offCtx.textBaseline = 'middle';
@@ -138,7 +138,7 @@ export default function TerrashieldIntro({ onComplete }) {
       });
     }
 
-    // Main debris fragments that will form "TERRASHIELD AI"
+    // Main debris fragments that will form "TERRAFORGE AI"
     const particles = [];
     for (let i = 0; i < numParticles; i++) {
       const target = textTargets[i % textTargets.length];
@@ -418,7 +418,7 @@ export default function TerrashieldIntro({ onComplete }) {
       }
 
       // =======================================================================
-      // LAYER 3: DEBRIS EXPLOSION & CONVERGENCE ONTO "TERRASHIELD AI"
+      // LAYER 3: DEBRIS EXPLOSION & CONVERGENCE ONTO "TERRAFORGE AI"
       // =======================================================================
       if (elapsed >= 0.75) {
         const explosionAge = elapsed - 0.75;
@@ -520,8 +520,8 @@ export default function TerrashieldIntro({ onComplete }) {
         const wordmarkAge = elapsed - 3.3;
         const wordmarkAlpha = Math.min(1, wordmarkAge / 0.8);
 
-        const text = 'TERRASHIELD AI';
-        const fontSize = Math.max(28, Math.min(78, Math.floor(width / 14.5)));
+        const text = 'TERRAFORGE AI';
+        const fontSize = Math.max(28, Math.min(80, Math.floor(width / 14)));
         const textY = height * 0.44;
 
         ctx.save();
@@ -620,7 +620,7 @@ export default function TerrashieldIntro({ onComplete }) {
       ref={containerRef}
       className={`terrashield-intro-overlay ${fadingOut ? 'fade-out' : ''}`}
       role="dialog"
-      aria-label="Terrashield AI Opening Sequence"
+      aria-label="TerraForge AI Opening Sequence"
       aria-modal="true"
     >
       <canvas
@@ -642,7 +642,7 @@ export default function TerrashieldIntro({ onComplete }) {
 
       {/* Screen-reader descriptive announcement */}
       <div className="sr-only">
-        Opening cinematic animation: Lightning strikes dark terrain, debris fragments explode and converge to form TERRASHIELD AI wordmark, then transitions to the homepage.
+        Opening cinematic animation: Lightning strikes dark terrain, debris fragments explode and converge to form TERRAFORGE AI wordmark, then transitions to the homepage.
       </div>
     </div>
   );
